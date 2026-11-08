@@ -1,5 +1,5 @@
 //! Real local repositories exercise the public native worktree boundary.
-//! All mutations stay inside uniquely owned target/worktree-tests directories;
+//! All mutations stay inside uniquely owned temporary test directories;
 //! no installed Git command, desktop window, remote, or user repository is used.
 
 use std::{
@@ -29,7 +29,9 @@ struct Fixture {
 
 impl Fixture {
     fn new() -> Self {
-        let base = Path::new(env!("CARGO_MANIFEST_DIR")).join("../../target/worktree-tests");
+        // Creating a sibling worktree must not be rejected as nested in the
+        // source checkout, which is itself a Git repository in CI.
+        let base = std::env::temp_dir().join("gitviews-worktree-tests");
         fs::create_dir_all(&base).unwrap();
         let base = fs::canonicalize(base).unwrap();
         let stamp = SystemTime::now()

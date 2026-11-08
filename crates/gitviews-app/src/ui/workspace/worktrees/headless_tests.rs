@@ -33,8 +33,9 @@ struct Fixture {
 
 impl Fixture {
     fn new(cx: &mut TestAppContext, with_linked: bool) -> Self {
-        let base =
-            Path::new(env!("CARGO_MANIFEST_DIR")).join("../../target/headless-worktree-tests");
+        // The project checkout is itself a Git repository. Keep fixture
+        // worktrees outside it so production nested-repository checks apply.
+        let base = std::env::temp_dir().join("gitviews-headless-worktree-tests");
         fs::create_dir_all(&base).unwrap();
         let base = fs::canonicalize(base).unwrap();
         let stamp = SystemTime::now()
