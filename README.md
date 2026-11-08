@@ -97,7 +97,13 @@ SSH 仓库的 Git 设置与认证弹窗均提供密钥路径发现：点击“�
 
 使用 [性能基线说明](docs/PERFORMANCE_BASELINE.md) 中的脚本生成固定规模的本地测试仓库，记录读取、状态、文件树、预览、搜索与缓存的分位耗时，以及进程工作集、私有内存和峰值。JSON 保留环境、构建和数据规模，供后续优化前后比较。服务测量与实际窗口启动测量分别记录，缓存预算不能作为进程总内存上限。
 
-## 单文件 Release
+## Release 下载
+
+GitHub Releases 提供 Windows x64 ZIP、Linux x64 tar.gz、macOS Apple 芯片和 Intel 芯片 tar.gz，以及对应的 SHA-256 校验文件。选择与系统架构匹配的文件，解压后运行。
+
+Linux 版本在 Ubuntu 24.04 上构建，依赖兼容的系统动态库、Wayland 或 X11 图形会话和可用的 Vulkan 驱动；缺少库时可使用 `ldd ./gitviews` 排查。macOS 压缩包内提供 `GitViews.app`；构建未签名或公证，可能被 Gatekeeper 阻止。Linux 和 macOS 的 CI 验证编译和 Git/服务测试，尚不等于在所有桌面环境中的运行验证。各平台随包提供第三方许可材料；应用内许可界面仍展示 Windows 版本的清单。
+
+### Windows 单文件版
 
 最新版本位于 `dist/read-only-mode/GitViews.exe`，默认只读简单模式，关闭后恢复完整高级功能；上一轮构建保留在 `dist/p0-foundation/GitViews.exe`。功能、验证结果与支持边界见 `docs/ITERATIONS.md`。
 

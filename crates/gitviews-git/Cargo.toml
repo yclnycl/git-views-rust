@@ -10,6 +10,10 @@ description = "Native Git repository access for GitViews"
 git2 = { version = "=0.21.0", default-features = false, features = ["https", "ssh", "vendored-libgit2"] }
 tracing.workspace = true
 
+# Avoid linking the release binary to OpenSSL installed only on the CI runner.
+[target.'cfg(unix)'.dependencies]
+git2 = { version = "=0.21.0", default-features = false, features = ["vendored-openssl"] }
+
 # WinCNG omits Ed25519. Build libssh2 with bundled static OpenSSL so the
 # portable executable also supports modern OpenSSH/Git hosting keys.
 [target.'cfg(windows)'.dependencies]
