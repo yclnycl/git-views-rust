@@ -1,0 +1,19 @@
+name: Set up Unix build environment
+description: Install the Rust toolchain, cache and Linux native build dependencies.
+runs:
+  using: composite
+  steps:
+    - uses: dtolnay/rust-toolchain@1.99.1
+      with:
+        components: rustfmt, clippy
+    - uses: Swatinem/rust-cache@v2
+      with:
+        cache-on-failure: true
+    - name: Install Linux build dependencies
+      if: runner.os == 'Linux'
+      shell: bash
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y build-essential clang cmake pkg-config libfontconfig1-dev \
+          libwayland-dev libwebkit2gtk-4.1-dev libxkbcommon-x11-dev libx11-xcb-dev \
+          libssl-dev libzstd-dev libvulkan1

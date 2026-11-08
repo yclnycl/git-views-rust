@@ -1,0 +1,18 @@
+name: Check Unix workspace
+description: Check formatting, test the workspace and run Clippy on Unix.
+runs:
+  using: composite
+  steps:
+    - uses: ./.github/actions/setup-unix
+    - name: Fetch locked dependencies
+      shell: bash
+      run: cargo fetch --locked
+    - name: Check formatting
+      shell: bash
+      run: cargo fmt --all -- --check
+    - name: Test workspace
+      shell: bash
+      run: cargo test --workspace --locked
+    - name: Check workspace with Clippy
+      shell: bash
+      run: cargo clippy --locked --workspace --all-targets -- -D warnings

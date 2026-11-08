@@ -1,0 +1,50 @@
+name: Package Unix release
+description: Build, verify and upload a native Unix release package.
+inputs:
+  platform:
+    description: Platform identifier used for the package and artifact names.
+    required: true
+  target:
+    description: Rust target triple used to collect dependency licenses.
+    required: true
+runs:
+  using: composite
+  steps:
+    - uses: ./.github/actions/setup-unix
+    - name: Fetch locked dependencies
+      shell: bash
+      run: cargo fetch --locked
+    - name: Build native release
+      shell: bash
+      run: cargo build --release --locked --package gitviews-app --bin gitviews
+    - name: Collect third-party license information
+      shell: bash
+      env:
+        PACKAGE_TARGET: ${{ inputs.target }}
+      run: python3 scripts/collect-third-party-licenses.py "$PACKAGE_TARGET" dist/third-party-licenses
+    - name: Preserve license inventory on failure
+      if: failure()
+      uses: actions/upload-artifact@v4
+      with:
+        name: license-inventory-${{ inputs.platform }}
+        path: dist/third-party-licenses/inventory.json
+        if-no-files-found: ignore
+        retention-days: 7
+    - name: Package Linux
+      if: runner.os == 'Linux'
+      shell: bash
+      run: bash scripts/package-linux.sh
+    - name: Package macOS
+      if: runner.os == 'macOS'
+      shell: bash
+      env:
+        PACKAGE_PLATFORM: ${{ inputs.platform }}
+      run: bash scripts/package-macos.sh "${PACKAGE_PLATFORM#macos-}"
+    - uses: actions/upload-artifact@v4
+      with:
+        name: package-${{ inputs.platform }}
+        path: |
+          dist/GitViews-*.tar.gz
+          dist/GitViews-*.tar.gz.sha256
+        if-no-files-found: error
+        retention-days: 7
