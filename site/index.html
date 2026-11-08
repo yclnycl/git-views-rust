@@ -4,6 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0a0f19">
+  <script>
+    // Apply the saved or system preference before the stylesheet is painted.
+    try {
+      var savedTheme = localStorage.getItem('gitviews-theme');
+      var preferredTheme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+      document.documentElement.dataset.theme = savedTheme === 'light' || savedTheme === 'dark' ? savedTheme : preferredTheme;
+    } catch (error) {
+      // CSS falls back to the system preference if storage is unavailable.
+    }
+  </script>
+  <script src="theme.js" defer></script>
   <meta name="description" content="GitViews 是一款用 Rust 构建的跨平台 Git 桌面客户端，让代码变更、历史和仓库管理更清晰。">
   <title>GitViews — 让每一次变更，清晰可见</title>
   <link rel="icon" href="assets/gitviews.png">
@@ -14,6 +25,10 @@
     <a class="brand" href="#top" aria-label="GitViews 首页"><img src="assets/gitviews.png" alt=""><span>GitViews</span></a>
     <nav aria-label="主导航"><a href="#features">功能</a><a href="#performance">性能</a><a href="#download">下载</a></nav>
     <a class="nav-github" href="https://github.com/yclnycl/git-views-rust">GitHub <span aria-hidden="true">↗</span></a>
+    <button class="theme-toggle" type="button" aria-label="切换主题" title="切换主题" hidden>
+      <svg class="theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+      <svg class="theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.9 13.1A9 9 0 0 1 10.9 3.1a9 9 0 1 0 10 10Z"></path></svg>
+    </button>
   </header>
 
   <main id="top">
@@ -25,17 +40,15 @@
         <div class="hero-actions"><a class="button primary" href="https://github.com/yclnycl/git-views-rust/releases/latest">下载 GitViews <span aria-hidden="true">↗</span></a><a class="button secondary" href="https://github.com/yclnycl/git-views-rust">查看 GitHub <span aria-hidden="true">→</span></a></div>
         <div class="platforms"><span>Windows</span><i></i><span>macOS</span><i></i><span>Linux</span><span class="platform-note">桌面原生应用</span></div>
       </div>
-      <div class="product-art" aria-label="展示仓库、文件变更和代码差异的界面示意图">
-        <div class="art-glow"></div>
-        <div class="app-window">
-          <div class="window-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>GitViews</span><span class="art-mode">只读模式</span></div>
-          <div class="window-body">
-            <div class="art-sidebar"><div class="art-label">工作区 <span>＋</span></div><div class="repo-name"><span class="repo-icon">◇</span> my-project <span>⌄</span></div><div class="art-label sub">分支</div><div class="branch"><span>⑂</span> main</div><div class="art-label sub">工作树</div><div class="muted-row">▾ &nbsp; my-project</div><div class="art-label sub">最近仓库</div><div class="muted-row">◇ &nbsp; design-system</div></div>
-            <div class="art-files"><div class="panel-title">文件变更 <span>3</span></div><div class="file-group">⌄ &nbsp; 已修改</div><div class="file selected"><b>M</b> app.tsx</div><div class="file"><b>M</b> styles.css</div><div class="file-group">⌄ &nbsp; 新文件</div><div class="file"><b class="added">＋</b> button.tsx</div></div>
-            <div class="art-diff"><div class="diff-tab"><span class="file-mark">M</span> app.tsx <span class="tab-close">×</span></div><div class="diff-heading">文件差异 <span>未暂存</span></div><div class="code"><div><em>12</em> <span class="purple">export function</span> App() {</div><div><em>13</em> &nbsp; <span class="purple">return</span> (</div><div class="removed"><em>14</em> − &lt;main&gt;Hello&lt;/main&gt;</div><div class="addition"><em>14</em> + &lt;main className="app"&gt;</div><div class="addition"><em>15</em> + &nbsp; &lt;h1&gt;Hello, world.&lt;/h1&gt;</div><div class="addition"><em>16</em> + &lt;/main&gt;</div><div><em>17</em> &nbsp; );</div><div><em>18</em> }</div></div><div class="diff-footer"><span>●</span> 工作区已更新 <span>UTF-8</span></div></div>
-          </div>
-        </div>
-        <div class="art-caption">界面示意 · 非实际应用截图</div>
+      <div class="product-art">
+        <div class="art-glow" aria-hidden="true"></div>
+        <a class="app-screenshot screenshot-dark" href="assets/gitviews-app-screenshot.png" aria-label="查看 GitViews 深色模式实际应用截图的大图">
+          <img src="assets/gitviews-app-screenshot.png" width="1434" height="650" alt="GitViews 的文件变更列表和双栏差异视图，展示示例仓库中 README 文件的修改">
+        </a>
+        <a class="app-screenshot screenshot-light" href="assets/gitviews-app-screenshot-light.png" aria-label="查看 GitViews 浅色模式实际应用截图的大图">
+          <img src="assets/gitviews-app-screenshot-light.png" width="1434" height="650" alt="GitViews 的文件变更列表和双栏差异视图，展示示例仓库中 README 文件的修改">
+        </a>
+        <div class="art-caption">实际应用截图 · 示例仓库 · 点击查看大图</div>
       </div>
     </section>
 
