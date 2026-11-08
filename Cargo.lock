@@ -2010,7 +2010,7 @@ dependencies = [
 
 [[package]]
 name = "gitviews-app"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "embed-resource",
  "gitviews-service",
@@ -2023,7 +2023,7 @@ dependencies = [
 
 [[package]]
 name = "gitviews-git"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "git2",
  "libssh2-sys",
@@ -2032,7 +2032,7 @@ dependencies = [
 
 [[package]]
 name = "gitviews-service"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "gitviews-git",
  "globset",
