@@ -22,9 +22,9 @@ jobs:
             throw "Native Windows Perl was not found at $perl"
           }
           "OPENSSL_SRC_PERL=$perl" >> $env:GITHUB_ENV
-      - run: ./scripts/dev.ps1 fmt --all -- --check
+      - run: ./scripts/dev.ps1 fmt --all '--' --check
       - run: ./scripts/dev.ps1 test --workspace --locked
-      - run: ./scripts/dev.ps1 clippy --locked --workspace --all-targets -- -D warnings
+      - run: ./scripts/dev.ps1 clippy --locked --workspace --all-targets '--' -D warnings
       - run: ./scripts/dev.ps1 build --locked
 
   release:
