@@ -46,6 +46,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: dtolnay/rust-toolchain@1.99.1
+        with:
+          components: rustfmt, clippy
       - uses: Swatinem/rust-cache@v2
         with:
           cache-on-failure: true
@@ -58,8 +60,12 @@ jobs:
             libssl-dev libzstd-dev libvulkan1
       - name: Fetch locked dependencies
         run: cargo fetch --locked
-      - name: Test Git and service crates
-        run: cargo test --locked -p gitviews-git -p gitviews-service
+      - name: Check formatting
+        run: cargo fmt --all -- --check
+      - name: Test workspace
+        run: cargo test --workspace --locked
+      - name: Check workspace with Clippy
+        run: cargo clippy --locked --workspace --all-targets -- -D warnings
       - name: Build native release
         run: cargo build --release --locked --package gitviews-app --bin gitviews
       - name: Collect third-party license information

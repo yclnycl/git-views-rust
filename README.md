@@ -101,7 +101,7 @@ SSH 仓库的 Git 设置与认证弹窗均提供密钥路径发现：点击“�
 
 GitHub Releases 提供 Windows x64 ZIP、Linux x64 tar.gz、macOS Apple 芯片和 Intel 芯片 tar.gz，以及对应的 SHA-256 校验文件。选择与系统架构匹配的文件，解压后运行。
 
-Linux 版本在 Ubuntu 24.04 上构建，依赖兼容的系统动态库、Wayland 或 X11 图形会话和可用的 Vulkan 驱动；缺少库时可使用 `ldd ./gitviews` 排查。macOS 压缩包内提供 `GitViews.app`；构建未使用 Developer ID 签名或公证，可能被 Gatekeeper 阻止。Linux 和 macOS 的 CI 验证编译和 Git/服务测试，尚不等于在所有桌面环境中的运行验证。各平台随包提供第三方许可材料；应用内许可界面仍展示 Windows 版本的清单。
+Linux 版本在 Ubuntu 24.04 上构建，依赖兼容的系统动态库、Wayland 或 X11 图形会话和可用的 Vulkan 驱动；缺少库时可使用 `ldd ./gitviews` 排查。macOS 压缩包内提供 `GitViews.app`；构建未使用 Developer ID 签名或公证，可能被 Gatekeeper 阻止。Linux 和 macOS 的 CI 执行格式检查、工作区测试、Clippy 检查和发布构建，尚不等于在所有桌面环境中的运行验证。各平台随包提供第三方许可材料；应用内许可界面仍展示 Windows 版本的清单。
 
 ### Windows 单文件版
 
