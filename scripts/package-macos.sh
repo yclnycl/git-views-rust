@@ -31,7 +31,7 @@ if [[ ! -d $licenses ]] || [[ -z $(find "$licenses" -type f -print -quit) ]]; th
   exit 1
 fi
 
-lipo -verify_arch "$native_arch" "$binary"
+lipo "$binary" -verify_arch "$native_arch"
 # A runner-local Homebrew dependency will not be present on the recipient's Mac.
 # Permit only macOS system libraries/frameworks until other libraries are bundled.
 dependencies=$(otool -L "$binary")
