@@ -1,0 +1,6677 @@
+{
+  "type": "frame",
+  "id": "ti1yA",
+  "x": 1760,
+  "y": 0,
+  "name": "查看器状态 · 单栏 Diff",
+  "clip": true,
+  "width": 1088,
+  "height": 876,
+  "fill": "#ffffff",
+  "layout": "vertical",
+  "children": [
+    {
+      "type": "frame",
+      "id": "QrO7y",
+      "name": "打开的文件标签",
+      "width": "fill_container",
+      "height": 44,
+      "fill": "#f6f8fa",
+      "stroke": "#d0d7de",
+      "strokeWidth": {
+        "bottom": 1
+      },
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "IYla4",
+          "name": "WorktreePanel.tsx 标签",
+          "height": "fill_container",
+          "fill": "#ffffff",
+          "stroke": "#0969da",
+          "strokeWidth": {
+            "bottom": 2
+          },
+          "gap": 8,
+          "padding": [
+            0,
+            16
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "tO5XY",
+              "name": "WorktreePanel.tsx 文件类型",
+              "width": 15,
+              "height": 15,
+              "icon": "file-code",
+              "library": "lucide",
+              "fill": "#0969da",
+              "measured": {
+                "x": 16,
+                "y": 14.5,
+                "width": 15,
+                "height": 15
+              }
+            },
+            {
+              "type": "text",
+              "id": "anYoa",
+              "name": "WorktreePanel.tsx 标签名",
+              "fill": "#1f2328",
+              "content": "WorktreePanel.tsx",
+              "fontFamily": "Noto Sans SC",
+              "fontSize": 13,
+              "fontWeight": "500",
+              "measured": {
+                "x": 39,
+                "y": 12.5,
+                "width": 113,
+                "height": 19
+              }
+            },
+            {
+              "type": "text",
+              "id": "B0BFg",
+              "name": "WorktreePanel.tsx 文件状态",
+              "fill": "#9a6700",
+              "content": "M",
+              "fontFamily": "Noto Sans SC",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "measured": {
+                "x": 160,
+                "y": 14,
+                "width": 9,
+                "height": 16
+              }
+            },
+            {
+              "type": "icon",
+              "id": "ex12v",
+              "name": "关闭 WorktreePanel.tsx",
+              "width": 13,
+              "height": 13,
+              "icon": "x",
+              "library": "lucide",
+              "fill": "#59636e",
+              "measured": {
+                "x": 177,
+                "y": 15.5,
+                "width": 13,
+                "height": 13
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 0,
+            "width": 206,
+            "height": 44
+          }
+        },
+        {
+          "type": "frame",
+          "id": "i4Eh1P",
+          "name": "package.json 标签",
+          "height": "fill_container",
+          "fill": "#f6f8fa",
+          "stroke": "#d0d7de",
+          "strokeWidth": {
+            "right": 1
+          },
+          "gap": 8,
+          "padding": [
+            0,
+            16
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "UmQDU",
+              "name": "package.json 文件类型",
+              "width": 15,
+              "height": 15,
+              "icon": "file-text",
+              "library": "lucide",
+              "fill": "#59636e",
+              "measured": {
+                "x": 16,
+                "y": 14.5,
+                "width": 15,
+                "height": 15
+              }
+            },
+            {
+              "type": "text",
+              "id": "D9qXB0",
+              "name": "package.json 标签名",
+              "fill": "#1f2328",
+              "content": "package.json",
+              "fontFamily": "Noto Sans SC",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "measured": {
+                "x": 39,
+                "y": 12.5,
+                "width": 80,
+                "height": 19
+              }
+            },
+            {
+              "type": "text",
+              "id": "ubGjv",
+              "name": "package.json 文件状态",
+              "fill": "#9a6700",
+              "content": "M",
+              "fontFamily": "Noto Sans SC",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "measured": {
+                "x": 127,
+                "y": 14,
+                "width": 9,
+                "height": 16
+              }
+            },
+            {
+              "type": "icon",
+              "id": "ctitu",
+              "name": "关闭 package.json",
+              "width": 13,
+              "height": 13,
+              "icon": "x",
+              "library": "lucide",
+              "fill": "#59636e",
+              "measured": {
+                "x": 144,
+                "y": 15.5,
+                "width": 13,
+                "height": 13
+              }
+            }
+          ],
+          "measured": {
+            "x": 206,
+            "y": 0,
+            "width": 173,
+            "height": 44
+          }
+        },
+        {
+          "type": "frame",
+          "id": "LMKc6",
+          "name": "README.md 标签",
+          "height": "fill_container",
+          "fill": "#f6f8fa",
+          "stroke": "#d0d7de",
+          "strokeWidth": {
+            "right": 1
+          },
+          "gap": 8,
+          "padding": [
+            0,
+            16
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "pTajh",
+              "name": "README.md 文件类型",
+              "width": 15,
+              "height": 15,
+              "icon": "file-text",
+              "library": "lucide",
+              "fill": "#59636e",
+              "measured": {
+                "x": 16,
+                "y": 14.5,
+                "width": 15,
+                "height": 15
+              }
+            },
+            {
+              "type": "text",
+              "id": "o0gFje",
+              "name": "README.md 标签名",
+              "fill": "#1f2328",
+              "content": "README.md",
+              "fontFamily": "Noto Sans SC",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "measured": {
+                "x": 39,
+                "y": 12.5,
+                "width": 75,
+                "height": 19
+              }
+            },
+            {
+              "type": "text",
+              "id": "r2vlhr",
+              "name": "README.md 文件状态",
+              "fill": "#1a7f37",
+              "content": "A",
+              "fontFamily": "Noto Sans SC",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "measured": {
+                "x": 122,
+                "y": 14,
+                "width": 7,
+                "height": 16
+              }
+            },
+            {
+              "type": "icon",
+              "id": "mwUzM",
+              "name": "关闭 README.md",
+              "width": 13,
+              "height": 13,
+              "icon": "x",
+              "library": "lucide",
+              "fill": "#59636e",
+              "measured": {
+                "x": 137,
+                "y": 15.5,
+                "width": 13,
+                "height": 13
+              }
+            }
+          ],
+          "measured": {
+            "x": 379,
+            "y": 0,
+            "width": 166,
+            "height": 44
+          }
+        },
+        {
+          "type": "frame",
+          "id": "j01uRX",
+          "name": "标签伸缩间距",
+          "width": "fill_container",
+          "height": 1,
+          "measured": {
+            "x": 545,
+            "y": 21.5,
+            "width": 503,
+            "height": 1
+          }
+        },
+        {
+          "type": "frame",
+          "id": "XfiOP",
+          "name": "文件标签菜单",
+          "width": 40,
+          "height": "fill_container",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "PyZav",
+              "name": "全部标签",
+              "width": 16,
+              "height": 16,
+              "icon": "chevron-down",
+              "library": "lucide",
+              "fill": "#59636e",
+              "measured": {
+                "x": 12,
+                "y": 14,
+                "width": 16,
+                "height": 16
+              }
+            }
+          ],
+          "measured": {
+            "x": 1048,
+            "y": 0,
+            "width": 40,
+            "height": 44
+          }
+        }
+      ],
+      "measured": {
+        "x": 0,
+        "y": 0,
+        "width": 1088,
+        "height": 44
+      }
+    },
+    {
+      "type": "frame",
+      "id": "d7Udr",
+      "name": "文件路径与变更统计",
+      "width": "fill_container",
+      "height": 40,
+      "stroke": "#d0d7de",
+      "strokeWidth": {
+        "bottom": 1
+      },
+      "gap": 8,
+      "padding": [
+        0,
+        16
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "icon",
+          "id": "ZpN3U",
+          "name": "文件路径图标",
+          "width": 15,
+          "height": 15,
+          "icon": "file-code",
+          "library": "lucide",
+          "fill": "#59636e",
+          "measured": {
+            "x": 16,
+            "y": 12.5,
+            "width": 15,
+            "height": 15
+          }
+        },
+        {
+          "type": "text",
+          "id": "DOh3E",
+          "name": "父目录",
+          "fill": "#59636e",
+          "content": "src / components /",
+          "fontFamily": "Noto Sans SC",
+          "fontSize": 12,
+          "fontWeight": "normal",
+          "measured": {
+            "x": 39,
+            "y": 11.5,
+            "width": 104,
+            "height": 17
+          }
+        },
+        {
+          "type": "text",
+          "id": "t14yxI",
+          "name": "当前文件",
+          "fill": "#1f2328",
+          "content": "WorktreePanel.tsx",
+          "fontFamily": "Noto Sans SC",
+          "fontSize": 12,
+          "fontWeight": "500",
+          "measured": {
+            "x": 151,
+            "y": 11.5,
+            "width": 105,
+            "height": 17
+          }
+        },
+        {
+          "type": "frame",
+          "id": "r8jM3C",
+          "name": "路径栏伸缩间距",
+          "width": "fill_container",
+          "height": 1,
+          "measured": {
+            "x": 264,
+            "y": 19.5,
+            "width": 733,
+            "height": 1
+          }
+        },
+        {
+          "type": "text",
+          "id": "BBX0H",
+          "name": "增加行数",
+          "fill": "#1a7f37",
+          "content": "+10",
+          "fontFamily": "Noto Sans SC",
+          "fontSize": 12,
+          "fontWeight": "500",
+          "measured": {
+            "x": 1005,
+            "y": 11.5,
+            "width": 21,
+            "height": 17
+          }
+        },
+        {
+          "type": "text",
+          "id": "DoIxe",
+          "name": "删除行数",
+          "fill": "#d1242f",
+          "content": "−2",
+          "fontFamily": "Noto Sans SC",
+          "fontSize": 12,
+          "fontWeight": "500",
+          "measured": {
+            "x": 1034,
+            "y": 11.5,
+            "width": 14,
+            "height": 17
+          }
+        },
+        {
+          "type": "icon",
+          "id": "oLtNV",
+          "name": "文件更多操作",
+          "width": 16,
+          "height": 16,
+          "icon": "ellipsis",
+          "library": "lucide",
+          "fill": "#59636e",
+          "measured": {
+            "x": 1056,
+            "y": 12,
+            "width": 16,
+            "height": 16
+          }
+        }
+      ],
+      "measured": {
+        "x": 0,
+        "y": 44,
+        "width": 1088,
+        "height": 40
+      }
+    },
+    {
+      "type": "frame",
+      "id": "IBO4Q",
+      "name": "Diff 视图与定位工具栏",
+      "width": "fill_container",
+      "height": 48,
+      "stroke": "#d0d7de",
+      "strokeWidth": {
+        "bottom": 1
+      },
+      "gap": 12,
+      "padding": [
+        0,
+        16
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "nyv65",
+          "name": "Diff 布局切换",
+          "clip": true,
+          "height": 28,
+          "cornerRadius": 6,
+          "stroke": "#d0d7de",
+          "strokeWidth": 1,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "yWBYm",
+              "name": "单栏视图 · 当前",
+              "height": "fill_container",
+              "fill": "#ddf4ff",
+              "stroke": "#d0d7de",
+              "strokeWidth": {
+                "right": 1
+              },
+              "gap": 6,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "qMV1r",
+                  "name": "单栏图标",
+                  "width": 14,
+                  "height": 14,
+                  "icon": "rows-2",
+                  "library": "lucide",
+                  "fill": "#0969da",
+                  "measured": {
+                    "x": 10,
+                    "y": 7,
+                    "width": 14,
+                    "height": 14
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "lBs5w",
+                  "name": "单栏文字",
+                  "fill": "#0969da",
+                  "content": "单栏",
+                  "fontFamily": "Noto Sans SC",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "measured": {
+                    "x": 30,
+                    "y": 5.5,
+                    "width": 25,
+                    "height": 17
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 65,
+                "height": 28
+              }
+            },
+            {
+              "type": "frame",
+              "id": "eWVpX",
+              "name": "双栏视图",
+              "height": "fill_container",
+              "fill": "#f6f8fa",
+              "stroke": "#d0d7de",
+              "strokeWidth": {
+                "right": 1
+              },
+              "gap": 6,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "iAqXE",
+                  "name": "双栏图标",
+                  "width": 14,
+                  "height": 14,
+                  "icon": "columns-2",
+                  "library": "lucide",
+                  "fill": "#59636e",
+                  "measured": {
+                    "x": 10,
+                    "y": 7,
+                    "width": 14,
+                    "height": 14
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "YIeFu",
+                  "name": "双栏文字",
+                  "fill": "#1f2328",
+                  "content": "双栏",
+                  "fontFamily": "Noto Sans SC",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 30,
+                    "y": 5.5,
+                    "width": 25,
+                    "height": 17
+                  }
+                }
+              ],
+              "measured": {
+                "x": 65,
+                "y": 0,
+                "width": 65,
+                "height": 28
+              }
+            },
+            {
+              "type": "frame",
+              "id": "CUePQ",
+              "name": "多栏视图",
+              "height": "fill_container",
+              "fill": "#f6f8fa",
+              "stroke": "#d0d7de",
+              "strokeWidth": {
+                "right": 1
+              },
+              "gap": 6,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "uOGXB",
+                  "name": "多栏图标",
+                  "width": 14,
+                  "height": 14,
+                  "icon": "columns-3",
+                  "library": "lucide",
+                  "fill": "#59636e",
+                  "measured": {
+                    "x": 10,
+                    "y": 7,
+                    "width": 14,
+                    "height": 14
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "Y2jUCD",
+                  "name": "多栏文字",
+                  "fill": "#1f2328",
+                  "content": "多栏",
+                  "fontFamily": "Noto Sans SC",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 30,
+                    "y": 5.5,
+                    "width": 25,
+                    "height": 17
+                  }
+                }
+              ],
+              "measured": {
+                "x": 130,
+                "y": 0,
+                "width": 65,
+                "height": 28
+              }
+            }
+          ],
+          "measured": {
+            "x": 16,
+            "y": 10,
+            "width": 195,
+            "height": 28
+          }
+        },
+        {
+          "type": "frame",
+          "id": "XT6SN",
+          "name": "忽略空白字符选项",
+          "gap": 6,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "NDhbF",
+              "name": "空白字符复选框",
+              "width": 14,
+              "height": 14,
+              "icon": "square",
+              "library": "lucide",
+              "fill": "#59636e",
+              "measured": {
+                "x": 0,
+                "y": 1.5,
+                "width": 14,
+                "height": 14
+              }
+            },
+            {
+              "type": "text",
+              "id": "o4PRI",
+              "name": "忽略空白字符",
+              "fill": "#59636e",
+              "content": "忽略空白",
+              "fontFamily": "Noto Sans SC",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "measured": {
+                "x": 20,
+                "y": 0,
+                "width": 49,
+                "height": 17
+              }
+            }
+          ],
+          "measured": {
+            "x": 223,
+            "y": 15.5,
+            "width": 69,
+            "height": 17
+          }
+        },
+        {
+          "type": "frame",
+          "id": "m3szH",
+          "name": "Diff 工具栏伸缩间距",
+          "width": "fill_container",
+          "height": 1,
+          "measured": {
+            "x": 304,
+            "y": 23.5,
+            "width": 503,
+            "height": 1
+          }
+        },
+        {
+          "type": "frame",
+          "id": "u9yukI",
+          "name": "跳转文件源码",
+          "height": 28,
+          "fill": "#f6f8fa",
+          "cornerRadius": 6,
+          "stroke": "#d0d7de",
+          "strokeWidth": 1,
+          "gap": 6,
+          "padding": [
+            0,
+            8
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "y8bETW",
+              "name": "跳转源码图标",
+              "width": 14,
+              "height": 14,
+              "icon": "external-link",
+              "library": "lucide",
+              "fill": "#59636e",
+              "measured": {
+                "x": 8,
+                "y": 7,
+                "width": 14,
+                "height": 14
+              }
+            },
+            {
+              "type": "text",
+              "id": "D4DkE4",
+              "name": "跳转源码文字",
+              "fill": "#1f2328",
+              "content": "打开源文件",
+              "fontFamily": "Noto Sans SC",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "measured": {
+                "x": 28,
+                "y": 5.5,
+                "width": 61,
+                "height": 17
+              }
+            }
+          ],
+          "measured": {
+            "x": 819,
+            "y": 10,
+            "width": 97,
+            "height": 28
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "zS7m4",
+          "name": "工具栏分隔线",
+          "fill": "#d0d7de",
+          "width": 1,
+          "height": 20,
+          "measured": {
+            "x": 928,
+            "y": 14,
+            "width": 1,
+            "height": 20
+          }
+        },
+        {
+          "type": "text",
+          "id": "RktIw",
+          "name": "当前修改定位计数",
+          "fill": "#59636e",
+          "content": "修改 1 / 3",
+          "fontFamily": "Noto Sans SC",
+          "fontSize": 12,
+          "fontWeight": "normal",
+          "measured": {
+            "x": 941,
+            "y": 15.5,
+            "width": 51,
+            "height": 17
+          }
+        },
+        {
+          "type": "frame",
+          "id": "HGZyX",
+          "name": "上一个修改 · Alt+↑",
+          "width": 28,
+          "height": 28,
+          "fill": "#f6f8fa",
+          "cornerRadius": 6,
+          "stroke": "#d0d7de",
+          "strokeWidth": 1,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "F4UcCr",
+              "name": "上一个修改 · Alt+↑图标",
+              "width": 14,
+              "height": 14,
+              "icon": "arrow-up",
+              "library": "lucide",
+              "fill": "#59636e",
+              "measured": {
+                "x": 7,
+                "y": 7,
+                "width": 14,
+                "height": 14
+              }
+            }
+          ],
+          "measured": {
+            "x": 1004,
+            "y": 10,
+            "width": 28,
+            "height": 28
+          }
+        },
+        {
+          "type": "frame",
+          "id": "Gpw4n",
+          "name": "下一个修改 · Alt+↓",
+          "width": 28,
+          "height": 28,
+          "fill": "#f6f8fa",
+          "cornerRadius": 6,
+          "stroke": "#d0d7de",
+          "strokeWidth": 1,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "UehyM",
+              "name": "下一个修改 · Alt+↓图标",
+              "width": 14,
+              "height": 14,
+              "icon": "arrow-down",
+              "library": "lucide",
+              "fill": "#59636e",
+              "measured": {
+                "x": 7,
+                "y": 7,
+                "width": 14,
+                "height": 14
+              }
+            }
+          ],
+          "measured": {
+            "x": 1044,
+            "y": 10,
+            "width": 28,
+            "height": 28
+          }
+        }
+      ],
+      "measured": {
+        "x": 0,
+        "y": 84,
+        "width": 1088,
+        "height": 48
+      }
+    },
+    {
+      "type": "frame",
+      "id": "h3nV0",
+      "name": "比较版本标头",
+      "width": "fill_container",
+      "height": 36,
+      "fill": "#f6f8fa",
+      "stroke": "#d0d7de",
+      "strokeWidth": {
+        "bottom": 1
+      },
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "siBww",
+          "name": "原始版本",
+          "width": "fill_container",
+          "height": "fill_container",
+          "stroke": "#d0d7de",
+          "strokeWidth": {
+            "right": 1
+          },
+          "gap": 8,
+          "padding": [
+            0,
+            16
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "TA1Uh",
+              "name": "原始版本图标",
+              "width": 14,
+              "height": 14,
+              "icon": "git-commit-horizontal",
+              "library": "lucide",
+              "fill": "#59636e",
+              "measured": {
+                "x": 16,
+                "y": 11,
+                "width": 14,
+                "height": 14
+              }
+            },
+            {
+              "type": "text",
+              "id": "y2WMm3",
+              "name": "原始版本标题",
+              "fill": "#59636e",
+              "content": "HEAD · 8a7d1c2 → 工作区 · 单栏 Diff",
+              "fontFamily": "Noto Sans SC",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "measured": {
+                "x": 38,
+                "y": 9.5,
+                "width": 213,
+                "height": 17
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 0,
+            "width": 1088,
+            "height": 36
+          }
+        },
+        {
+          "type": "frame",
+          "id": "bReEP",
+          "x": 544,
+          "y": 0,
+          "name": "当前版本",
+          "enabled": false,
+          "width": "fill_container(544)",
+          "height": "fill_container(36)",
+          "stroke": "#d0d7de",
+          "strokeWidth": {
+            "right": 1
+          },
+          "gap": 8,
+          "padding": [
+            0,
+            16
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "DxIhT",
+              "name": "当前版本图标",
+              "width": 14,
+              "height": 14,
+              "icon": "pencil",
+              "library": "lucide",
+              "fill": "#59636e",
+              "measured": {
+                "x": 16,
+                "y": 11,
+                "width": 14,
+                "height": 14
+              }
+            },
+            {
+              "type": "text",
+              "id": "wFCGP",
+              "name": "当前版本标题",
+              "fill": "#59636e",
+              "content": "工作区 · 尚未暂存",
+              "fontFamily": "Noto Sans SC",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "measured": {
+                "x": 38,
+                "y": 9.5,
+                "width": 102,
+                "height": 17
+              }
+            }
+          ],
+          "measured": {
+            "x": 544,
+            "y": 0,
+            "width": 544,
+            "height": 36
+          }
+        }
+      ],
+      "measured": {
+        "x": 0,
+        "y": 132,
+        "width": 1088,
+        "height": 36
+      }
+    },
+    {
+      "type": "frame",
+      "id": "lr3kR",
+      "name": "单栏代码差异",
+      "width": "fill_container",
+      "height": "fill_container",
+      "fill": "#ffffff",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "dLaek",
+          "name": "单栏 · 修改块 1 · 导入与类型",
+          "width": "fill_container",
+          "height": 28,
+          "fill": "#ddf4ff",
+          "stroke": "#d0d7de",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "gap": 12,
+          "padding": [
+            0,
+            12
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "OSqeJ",
+              "name": "导入与类型上下文展开",
+              "width": 14,
+              "height": 14,
+              "icon": "unfold-vertical",
+              "library": "lucide",
+              "fill": "#0969da",
+              "measured": {
+                "x": 12,
+                "y": 7,
+                "width": 14,
+                "height": 14
+              }
+            },
+            {
+              "type": "text",
+              "id": "AAzTf",
+              "name": "导入与类型代码位置",
+              "fill": "#59636e",
+              "content": "@@ −1,7 +1,7 @@",
+              "lineHeight": 1.6,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "measured": {
+                "x": 38,
+                "y": 5,
+                "width": 99,
+                "height": 18
+              }
+            },
+            {
+              "type": "text",
+              "id": "C5JbX",
+              "name": "导入与类型标题",
+              "fill": "#59636e",
+              "content": "导入与类型",
+              "lineHeight": 1.6,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "measured": {
+                "x": 149,
+                "y": 5,
+                "width": 55,
+                "height": 18
+              }
+            },
+            {
+              "type": "frame",
+              "id": "cN0ry",
+              "name": "导入与类型头部间距",
+              "width": "fill_container",
+              "height": 1,
+              "measured": {
+                "x": 216,
+                "y": 13.5,
+                "width": 786,
+                "height": 1
+              }
+            },
+            {
+              "type": "frame",
+              "id": "O0rh0O",
+              "name": "当前修改块指示",
+              "gap": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "vuFyM",
+                  "name": "当前修改定位图标",
+                  "width": 12,
+                  "height": 12,
+                  "icon": "map-pin",
+                  "library": "lucide",
+                  "fill": "#0969da",
+                  "measured": {
+                    "x": 0,
+                    "y": 3,
+                    "width": 12,
+                    "height": 12
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "tEGzx",
+                  "name": "当前修改标签",
+                  "fill": "#0969da",
+                  "content": "当前修改",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 18,
+                    "y": 0,
+                    "width": 44,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 1014,
+                "y": 5,
+                "width": 62,
+                "height": 18
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 0,
+            "width": 1088,
+            "height": 28
+          }
+        },
+        {
+          "type": "frame",
+          "id": "SgujM",
+          "name": "单栏对照 1 → —",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#ffebe9",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "DzMLo",
+              "name": "原始行号 1",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UyZ6R",
+                  "name": "原始行号文字 1",
+                  "fill": "#59636e",
+                  "content": "1",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 27,
+                    "y": 1.5,
+                    "width": 7,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "mSV2y",
+              "name": "工作区行号 ",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ncNSm",
+                  "name": "工作区行号文字 ",
+                  "fill": "#59636e",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 34,
+                    "y": 1.5,
+                    "width": 0,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "pCmi7",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tr223",
+                  "name": "单栏变更符号",
+                  "fill": "#d1242f",
+                  "content": "−",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 6,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "Pq7Mm",
+              "name": "单栏代码 1",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "F5SiVQ",
+                  "name": "原始代码片段 1 1",
+                  "fill": "#cf222e",
+                  "content": "import",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 46,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "PEjyZ",
+                  "name": "原始代码片段 1 2",
+                  "fill": "#1f2328",
+                  "content": " { ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 46,
+                    "y": 0.5,
+                    "width": 23,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "QIIf5",
+                  "name": "原始代码片段 1 3",
+                  "fill": "#8250df",
+                  "content": "useMemo",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 69,
+                    "y": 0.5,
+                    "width": 53,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "pR8um",
+                  "name": "原始代码片段 1 4",
+                  "fill": "#1f2328",
+                  "content": " } ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 122,
+                    "y": 0.5,
+                    "width": 23,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "xCvcG",
+                  "name": "原始代码片段 1 5",
+                  "fill": "#cf222e",
+                  "content": "from",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 145,
+                    "y": 0.5,
+                    "width": 31,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "T8tSE",
+                  "name": "原始代码片段 1 6",
+                  "fill": "#1f2328",
+                  "content": " ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 176,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "cEsDE",
+                  "name": "原始代码片段 1 7",
+                  "fill": "#0a3069",
+                  "content": "'react'",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 184,
+                    "y": 0.5,
+                    "width": 53,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "HUWBj",
+                  "name": "原始代码片段 1 8",
+                  "fill": "#1f2328",
+                  "content": ";",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 237,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 245,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 28,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "RVC6T",
+          "name": "单栏对照 — → 1",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#dafbe1",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "V1cbe",
+              "name": "原始行号 ",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "khaOC",
+                  "name": "原始行号文字 ",
+                  "fill": "#59636e",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 34,
+                    "y": 1.5,
+                    "width": 0,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "msrlp",
+              "name": "工作区行号 1",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KEFDB",
+                  "name": "工作区行号文字 1",
+                  "fill": "#59636e",
+                  "content": "1",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 27,
+                    "y": 1.5,
+                    "width": 7,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "nxnT1",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "m1iLM",
+                  "name": "单栏变更符号",
+                  "fill": "#1a7f37",
+                  "content": "+",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 6,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "ehOWQ",
+              "name": "单栏代码 1",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "yCCEu",
+                  "name": "工作区代码片段 1 1",
+                  "fill": "#cf222e",
+                  "content": "import",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 46,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "P6Aw2",
+                  "name": "工作区代码片段 1 2",
+                  "fill": "#1f2328",
+                  "content": " { ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 46,
+                    "y": 0.5,
+                    "width": 23,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "lEYjt",
+                  "name": "工作区代码片段 1 3",
+                  "fill": "#8250df",
+                  "content": "useMemo",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 69,
+                    "y": 0.5,
+                    "width": 53,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "MCjnt",
+                  "name": "工作区代码片段 1 4",
+                  "fill": "#1f2328",
+                  "content": ", ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 122,
+                    "y": 0.5,
+                    "width": 16,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "K1MBd",
+                  "name": "工作区代码片段 1 5",
+                  "fill": "#8250df",
+                  "content": "useState",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 138,
+                    "y": 0.5,
+                    "width": 61,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "L0bOu",
+                  "name": "工作区代码片段 1 6",
+                  "fill": "#1f2328",
+                  "content": " } ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 199,
+                    "y": 0.5,
+                    "width": 23,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "cFp7s",
+                  "name": "工作区代码片段 1 7",
+                  "fill": "#cf222e",
+                  "content": "from",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 222,
+                    "y": 0.5,
+                    "width": 31,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "zp21h",
+                  "name": "工作区代码片段 1 8",
+                  "fill": "#1f2328",
+                  "content": " ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 253,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "xbSJz",
+                  "name": "工作区代码片段 1 9",
+                  "fill": "#0a3069",
+                  "content": "'react'",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 261,
+                    "y": 0.5,
+                    "width": 53,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "di4eM",
+                  "name": "工作区代码片段 1 10",
+                  "fill": "#1f2328",
+                  "content": ";",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 314,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 322,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 49,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "QkD8X",
+          "name": "单栏对照 2 → 2",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#ffffff",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "z6LN7",
+              "name": "原始行号 2",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "u9TG9",
+                  "name": "原始行号文字 2",
+                  "fill": "#59636e",
+                  "content": "2",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 27,
+                    "y": 1.5,
+                    "width": 7,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "KGXlv",
+              "name": "工作区行号 2",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BhwrU",
+                  "name": "工作区行号文字 2",
+                  "fill": "#59636e",
+                  "content": "2",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 27,
+                    "y": 1.5,
+                    "width": 7,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "WgUmD",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Vcuu7",
+                  "name": "单栏变更符号",
+                  "fill": "#d1242f",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 10,
+                    "y": 0.5,
+                    "width": 0,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "twYTY",
+              "name": "单栏代码 2",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bWELu",
+                  "name": "工作区代码片段 2 1",
+                  "fill": "#cf222e",
+                  "content": "import",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 46,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "gZS5o",
+                  "name": "工作区代码片段 2 2",
+                  "fill": "#1f2328",
+                  "content": " ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 46,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "GdiJW",
+                  "name": "工作区代码片段 2 3",
+                  "fill": "#cf222e",
+                  "content": "type",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 54,
+                    "y": 0.5,
+                    "width": 31,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "x8lKb",
+                  "name": "工作区代码片段 2 4",
+                  "fill": "#1f2328",
+                  "content": " { Worktree } ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 85,
+                    "y": 0.5,
+                    "width": 106,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "y1VUR",
+                  "name": "工作区代码片段 2 5",
+                  "fill": "#cf222e",
+                  "content": "from",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 191,
+                    "y": 0.5,
+                    "width": 31,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "THhtY",
+                  "name": "工作区代码片段 2 6",
+                  "fill": "#1f2328",
+                  "content": " ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 222,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "eXNNY",
+                  "name": "工作区代码片段 2 7",
+                  "fill": "#0a3069",
+                  "content": "'./types'",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 230,
+                    "y": 0.5,
+                    "width": 68,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "IW2U0",
+                  "name": "工作区代码片段 2 8",
+                  "fill": "#1f2328",
+                  "content": ";",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 298,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 306,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 70,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "G1ARtW",
+          "name": "单栏对照 3 → 3",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#ffffff",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Nst7u",
+              "name": "原始行号 3",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "y6pEsv",
+                  "name": "原始行号文字 3",
+                  "fill": "#59636e",
+                  "content": "3",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 27,
+                    "y": 1.5,
+                    "width": 7,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "pw6yc",
+              "name": "工作区行号 3",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EMKPj",
+                  "name": "工作区行号文字 3",
+                  "fill": "#59636e",
+                  "content": "3",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 27,
+                    "y": 1.5,
+                    "width": 7,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "rfRhS",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vtE29",
+                  "name": "单栏变更符号",
+                  "fill": "#d1242f",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 10,
+                    "y": 0.5,
+                    "width": 0,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 91,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "m7Q3X3",
+          "name": "单栏对照 4 → 4",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#ffffff",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "FwwUj",
+              "name": "原始行号 4",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "cHfsv",
+                  "name": "原始行号文字 4",
+                  "fill": "#59636e",
+                  "content": "4",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 27,
+                    "y": 1.5,
+                    "width": 7,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "a2GCTy",
+              "name": "工作区行号 4",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VRP8i",
+                  "name": "工作区行号文字 4",
+                  "fill": "#59636e",
+                  "content": "4",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 27,
+                    "y": 1.5,
+                    "width": 7,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "DXqtl",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zVw1C",
+                  "name": "单栏变更符号",
+                  "fill": "#d1242f",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 10,
+                    "y": 0.5,
+                    "width": 0,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "S9Cg1p",
+              "name": "单栏代码 4",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "x5eiL",
+                  "name": "工作区代码片段 4 1",
+                  "fill": "#cf222e",
+                  "content": "type",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 31,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "jTSLH",
+                  "name": "工作区代码片段 4 2",
+                  "fill": "#1f2328",
+                  "content": " Props = {",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 31,
+                    "y": 0.5,
+                    "width": 76,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 107,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 112,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "ZlSDf",
+          "name": "单栏对照 5 → 5",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#ffffff",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "qersg",
+              "name": "原始行号 5",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "veg9V",
+                  "name": "原始行号文字 5",
+                  "fill": "#59636e",
+                  "content": "5",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 27,
+                    "y": 1.5,
+                    "width": 7,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "Qop6D",
+              "name": "工作区行号 5",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VOu6s",
+                  "name": "工作区行号文字 5",
+                  "fill": "#59636e",
+                  "content": "5",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 27,
+                    "y": 1.5,
+                    "width": 7,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "y1iFk",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "L21Zy",
+                  "name": "单栏变更符号",
+                  "fill": "#d1242f",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 10,
+                    "y": 0.5,
+                    "width": 0,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "Wszap",
+              "name": "单栏代码 5",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "A4E6vt",
+                  "name": "工作区代码片段 5 0",
+                  "fill": "#1f2328",
+                  "content": "  worktrees: Worktree[];",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 181,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 181,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 133,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "RrdwL",
+          "name": "单栏对照 6 → 6",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#ffffff",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "F6tSz",
+              "name": "原始行号 6",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "SHFFn",
+                  "name": "原始行号文字 6",
+                  "fill": "#59636e",
+                  "content": "6",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 27,
+                    "y": 1.5,
+                    "width": 7,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "QT3sL",
+              "name": "工作区行号 6",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DIh4k",
+                  "name": "工作区行号文字 6",
+                  "fill": "#59636e",
+                  "content": "6",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 27,
+                    "y": 1.5,
+                    "width": 7,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "MhSrz",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OeeW4",
+                  "name": "单栏变更符号",
+                  "fill": "#d1242f",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 10,
+                    "y": 0.5,
+                    "width": 0,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "G1FaBq",
+              "name": "单栏代码 6",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pILHB",
+                  "name": "工作区代码片段 6 0",
+                  "fill": "#1f2328",
+                  "content": "  onSelect: (path: string) => void;",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 263,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 263,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 154,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "f6k21O",
+          "name": "单栏对照 7 → 7",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#ffffff",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "dOXVJ",
+              "name": "原始行号 7",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "SZFbm",
+                  "name": "原始行号文字 7",
+                  "fill": "#59636e",
+                  "content": "7",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 27,
+                    "y": 1.5,
+                    "width": 7,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "p9uCE",
+              "name": "工作区行号 7",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PB3Fd",
+                  "name": "工作区行号文字 7",
+                  "fill": "#59636e",
+                  "content": "7",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 27,
+                    "y": 1.5,
+                    "width": 7,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "TrJgF",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Q3iVT",
+                  "name": "单栏变更符号",
+                  "fill": "#d1242f",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 10,
+                    "y": 0.5,
+                    "width": 0,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "SPD0e",
+              "name": "单栏代码 7",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sp1FI",
+                  "name": "工作区代码片段 7 0",
+                  "fill": "#1f2328",
+                  "content": "};",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 16,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 16,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 175,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "XnBm1",
+          "name": "单栏 · 修改块 2 · 工作树筛选",
+          "width": "fill_container",
+          "height": 28,
+          "fill": "#ddf4ff",
+          "stroke": "#d0d7de",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "gap": 12,
+          "padding": [
+            0,
+            12
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "avvSQ",
+              "name": "工作树筛选上下文展开",
+              "width": 14,
+              "height": 14,
+              "icon": "unfold-vertical",
+              "library": "lucide",
+              "fill": "#0969da",
+              "measured": {
+                "x": 12,
+                "y": 7,
+                "width": 14,
+                "height": 14
+              }
+            },
+            {
+              "type": "text",
+              "id": "gCzfR",
+              "name": "工作树筛选代码位置",
+              "fill": "#59636e",
+              "content": "@@ −24,5 +24,9 @@",
+              "lineHeight": 1.6,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "measured": {
+                "x": 38,
+                "y": 5,
+                "width": 113,
+                "height": 18
+              }
+            },
+            {
+              "type": "text",
+              "id": "rXoxS",
+              "name": "工作树筛选标题",
+              "fill": "#59636e",
+              "content": "工作树筛选",
+              "lineHeight": 1.6,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "measured": {
+                "x": 163,
+                "y": 5,
+                "width": 55,
+                "height": 18
+              }
+            },
+            {
+              "type": "frame",
+              "id": "y0AtLs",
+              "name": "工作树筛选头部间距",
+              "width": "fill_container",
+              "height": 1,
+              "measured": {
+                "x": 230,
+                "y": 13.5,
+                "width": 846,
+                "height": 1
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 196,
+            "width": 1088,
+            "height": 28
+          }
+        },
+        {
+          "type": "frame",
+          "id": "YKpP2",
+          "name": "单栏对照 24 → 24",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#ffffff",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "flNO9",
+              "name": "原始行号 24",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Dx3pL",
+                  "name": "原始行号文字 24",
+                  "fill": "#59636e",
+                  "content": "24",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "E8VEr",
+              "name": "工作区行号 24",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "a9DZu5",
+                  "name": "工作区行号文字 24",
+                  "fill": "#59636e",
+                  "content": "24",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "cKGrB",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NGc90",
+                  "name": "单栏变更符号",
+                  "fill": "#d1242f",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 10,
+                    "y": 0.5,
+                    "width": 0,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "Zjqts",
+              "name": "单栏代码 24",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mECOJ",
+                  "name": "工作区代码片段 24 1",
+                  "fill": "#cf222e",
+                  "content": "export",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 46,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "RbOnw",
+                  "name": "工作区代码片段 24 2",
+                  "fill": "#1f2328",
+                  "content": " ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 46,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "h2T3R",
+                  "name": "工作区代码片段 24 3",
+                  "fill": "#cf222e",
+                  "content": "function",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 54,
+                    "y": 0.5,
+                    "width": 61,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "sNtQm",
+                  "name": "工作区代码片段 24 4",
+                  "fill": "#1f2328",
+                  "content": " ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 115,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "sRZCB",
+                  "name": "工作区代码片段 24 5",
+                  "fill": "#8250df",
+                  "content": "WorktreePanel",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 123,
+                    "y": 0.5,
+                    "width": 98,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "pbwf7",
+                  "name": "工作区代码片段 24 6",
+                  "fill": "#1f2328",
+                  "content": "({",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 221,
+                    "y": 0.5,
+                    "width": 16,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 237,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 224,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "yD6me",
+          "name": "单栏对照 25 → 25",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#ffffff",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "z1l3e",
+              "name": "原始行号 25",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ODkg3",
+                  "name": "原始行号文字 25",
+                  "fill": "#59636e",
+                  "content": "25",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "y4Hry",
+              "name": "工作区行号 25",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "T9yhE",
+                  "name": "工作区行号文字 25",
+                  "fill": "#59636e",
+                  "content": "25",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "cECnS",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OYb3v",
+                  "name": "单栏变更符号",
+                  "fill": "#d1242f",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 10,
+                    "y": 0.5,
+                    "width": 0,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "eUnEy",
+              "name": "单栏代码 25",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jQwQz",
+                  "name": "工作区代码片段 25 0",
+                  "fill": "#1f2328",
+                  "content": "  worktrees, onSelect,",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 166,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 166,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 245,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "pMrgY",
+          "name": "单栏对照 26 → 26",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#ffffff",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "EeRpZ",
+              "name": "原始行号 26",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "boIRZ",
+                  "name": "原始行号文字 26",
+                  "fill": "#59636e",
+                  "content": "26",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "dEAIA",
+              "name": "工作区行号 26",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tZbiq",
+                  "name": "工作区行号文字 26",
+                  "fill": "#59636e",
+                  "content": "26",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "y678C",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VQV4Z",
+                  "name": "单栏变更符号",
+                  "fill": "#d1242f",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 10,
+                    "y": 0.5,
+                    "width": 0,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "eZm6W",
+              "name": "单栏代码 26",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sNFvF",
+                  "name": "工作区代码片段 26 0",
+                  "fill": "#1f2328",
+                  "content": "}: Props) {",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 83,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 83,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 266,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "LmOQc",
+          "name": "单栏对照 27 → —",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#ffebe9",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "qfKPh",
+              "name": "原始行号 27",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "q1kdL",
+                  "name": "原始行号文字 27",
+                  "fill": "#59636e",
+                  "content": "27",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "vp57g",
+              "name": "工作区行号 ",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nco6p",
+                  "name": "工作区行号文字 ",
+                  "fill": "#59636e",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 34,
+                    "y": 1.5,
+                    "width": 0,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "V4Yly",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "uy25n",
+                  "name": "单栏变更符号",
+                  "fill": "#d1242f",
+                  "content": "−",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 6,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "r8e4D",
+              "name": "单栏代码 27",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "W9lyg",
+                  "name": "原始代码片段 27 0",
+                  "fill": "#1f2328",
+                  "content": "  ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 16,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "TMmLL",
+                  "name": "原始代码片段 27 1",
+                  "fill": "#cf222e",
+                  "content": "const",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 16,
+                    "y": 0.5,
+                    "width": 38,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "vZvob",
+                  "name": "原始代码片段 27 2",
+                  "fill": "#1f2328",
+                  "content": " items = worktrees;",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 54,
+                    "y": 0.5,
+                    "width": 143,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 197,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 287,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "M55hJB",
+          "name": "单栏对照 — → 27",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#dafbe1",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "I0Sqv",
+              "name": "原始行号 ",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vnIB3",
+                  "name": "原始行号文字 ",
+                  "fill": "#59636e",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 34,
+                    "y": 1.5,
+                    "width": 0,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "T3LNx",
+              "name": "工作区行号 27",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nfUTX",
+                  "name": "工作区行号文字 27",
+                  "fill": "#59636e",
+                  "content": "27",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "SFnGS",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JLJVR",
+                  "name": "单栏变更符号",
+                  "fill": "#1a7f37",
+                  "content": "+",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 6,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "PpUuO",
+              "name": "单栏代码 27",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ICOSC",
+                  "name": "工作区代码片段 27 0",
+                  "fill": "#1f2328",
+                  "content": "  ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 16,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "eudT7",
+                  "name": "工作区代码片段 27 1",
+                  "fill": "#cf222e",
+                  "content": "const",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 16,
+                    "y": 0.5,
+                    "width": 38,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "O0w00a",
+                  "name": "工作区代码片段 27 2",
+                  "fill": "#1f2328",
+                  "content": " [query, setQuery] = ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 54,
+                    "y": 0.5,
+                    "width": 158,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "B9Y3U",
+                  "name": "工作区代码片段 27 3",
+                  "fill": "#8250df",
+                  "content": "useState",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 212,
+                    "y": 0.5,
+                    "width": 61,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "oMBGp",
+                  "name": "工作区代码片段 27 4",
+                  "fill": "#1f2328",
+                  "content": "(",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 273,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "qI7Hz",
+                  "name": "工作区代码片段 27 5",
+                  "fill": "#0a3069",
+                  "content": "''",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 281,
+                    "y": 0.5,
+                    "width": 16,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "LRnhc",
+                  "name": "工作区代码片段 27 6",
+                  "fill": "#1f2328",
+                  "content": ");",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 297,
+                    "y": 0.5,
+                    "width": 16,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 313,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 308,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "KsQXA",
+          "name": "单栏对照 — → 28",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#dafbe1",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "zzTae",
+              "name": "原始行号 ",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "e78W10",
+                  "name": "原始行号文字 ",
+                  "fill": "#59636e",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 34,
+                    "y": 1.5,
+                    "width": 0,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "nq5db",
+              "name": "工作区行号 28",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "A6U3v",
+                  "name": "工作区行号文字 28",
+                  "fill": "#59636e",
+                  "content": "28",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "ILx7j",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sVJSh",
+                  "name": "单栏变更符号",
+                  "fill": "#1a7f37",
+                  "content": "+",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 6,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "oOCh7",
+              "name": "单栏代码 28",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "G5l1H",
+                  "name": "工作区代码片段 28 0",
+                  "fill": "#1f2328",
+                  "content": "  ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 16,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "sFqCU",
+                  "name": "工作区代码片段 28 1",
+                  "fill": "#cf222e",
+                  "content": "const",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 16,
+                    "y": 0.5,
+                    "width": 38,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "U388S",
+                  "name": "工作区代码片段 28 2",
+                  "fill": "#1f2328",
+                  "content": " items = ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 54,
+                    "y": 0.5,
+                    "width": 68,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "EokfT",
+                  "name": "工作区代码片段 28 3",
+                  "fill": "#8250df",
+                  "content": "useMemo",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 122,
+                    "y": 0.5,
+                    "width": 53,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "c3OaY",
+                  "name": "工作区代码片段 28 4",
+                  "fill": "#1f2328",
+                  "content": "(",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 175,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 183,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 329,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "c4EPu",
+          "name": "单栏对照 — → 29",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#dafbe1",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "P9yNW",
+              "name": "原始行号 ",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "T1ZsT",
+                  "name": "原始行号文字 ",
+                  "fill": "#59636e",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 34,
+                    "y": 1.5,
+                    "width": 0,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "iKoRT",
+              "name": "工作区行号 29",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "H8QFxY",
+                  "name": "工作区行号文字 29",
+                  "fill": "#59636e",
+                  "content": "29",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "wm1Bs",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "t84Qs7",
+                  "name": "单栏变更符号",
+                  "fill": "#1a7f37",
+                  "content": "+",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 6,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "s5u6L",
+              "name": "单栏代码 29",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KKMbf",
+                  "name": "工作区代码片段 29 0",
+                  "fill": "#1f2328",
+                  "content": "    () => ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 76,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "sHCbx",
+                  "name": "工作区代码片段 29 1",
+                  "fill": "#8250df",
+                  "content": "filterWorktrees",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 76,
+                    "y": 0.5,
+                    "width": 113,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "K5FTRR",
+                  "name": "工作区代码片段 29 2",
+                  "fill": "#1f2328",
+                  "content": "(worktrees, query),",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 189,
+                    "y": 0.5,
+                    "width": 143,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 332,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 350,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "YnTdH",
+          "name": "单栏对照 — → 30",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#dafbe1",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "NlGSB",
+              "name": "原始行号 ",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XwKQx",
+                  "name": "原始行号文字 ",
+                  "fill": "#59636e",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 34,
+                    "y": 1.5,
+                    "width": 0,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "qz7CR",
+              "name": "工作区行号 30",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AFg8q",
+                  "name": "工作区行号文字 30",
+                  "fill": "#59636e",
+                  "content": "30",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "ocJ9c",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "K8ky7v",
+                  "name": "单栏变更符号",
+                  "fill": "#1a7f37",
+                  "content": "+",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 6,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "rpBW1",
+              "name": "单栏代码 30",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PFHlJ",
+                  "name": "工作区代码片段 30 0",
+                  "fill": "#1f2328",
+                  "content": "    [worktrees, query],",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 173,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 173,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 371,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "g03lXV",
+          "name": "单栏对照 — → 31",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#dafbe1",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "x9syDv",
+              "name": "原始行号 ",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JB6zx",
+                  "name": "原始行号文字 ",
+                  "fill": "#59636e",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 34,
+                    "y": 1.5,
+                    "width": 0,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "wMScd",
+              "name": "工作区行号 31",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "T8qUed",
+                  "name": "工作区行号文字 31",
+                  "fill": "#59636e",
+                  "content": "31",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "h8YgR",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Impll",
+                  "name": "单栏变更符号",
+                  "fill": "#1a7f37",
+                  "content": "+",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 6,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "m3OGO",
+              "name": "单栏代码 31",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TEsku",
+                  "name": "工作区代码片段 31 0",
+                  "fill": "#1f2328",
+                  "content": "  );",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 31,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 31,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 392,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "Dikkx",
+          "name": "单栏对照 28 → 32",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#ffffff",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "qafM1",
+              "name": "原始行号 28",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "B3woF",
+                  "name": "原始行号文字 28",
+                  "fill": "#59636e",
+                  "content": "28",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "aNCzH",
+              "name": "工作区行号 32",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VYtmq",
+                  "name": "工作区行号文字 32",
+                  "fill": "#59636e",
+                  "content": "32",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "WHe1o",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NzL0s",
+                  "name": "单栏变更符号",
+                  "fill": "#d1242f",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 10,
+                    "y": 0.5,
+                    "width": 0,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "Y9NZsO",
+              "name": "单栏代码 32",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QNPSj",
+                  "name": "工作区代码片段 32 0",
+                  "fill": "#1f2328",
+                  "content": "  ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 16,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "nHZqH",
+                  "name": "工作区代码片段 32 1",
+                  "fill": "#cf222e",
+                  "content": "return",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 16,
+                    "y": 0.5,
+                    "width": 46,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "Nw8cP",
+                  "name": "工作区代码片段 32 2",
+                  "fill": "#1f2328",
+                  "content": " (",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 62,
+                    "y": 0.5,
+                    "width": 16,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 78,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 413,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "wKTL3",
+          "name": "单栏 · 修改块 3 · 搜索与列表",
+          "width": "fill_container",
+          "height": 28,
+          "fill": "#ddf4ff",
+          "stroke": "#d0d7de",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "gap": 12,
+          "padding": [
+            0,
+            12
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "N4h60N",
+              "name": "搜索与列表上下文展开",
+              "width": 14,
+              "height": 14,
+              "icon": "unfold-vertical",
+              "library": "lucide",
+              "fill": "#0969da",
+              "measured": {
+                "x": 12,
+                "y": 7,
+                "width": 14,
+                "height": 14
+              }
+            },
+            {
+              "type": "text",
+              "id": "tSP3m",
+              "name": "搜索与列表代码位置",
+              "fill": "#59636e",
+              "content": "@@ −56,5 +60,9 @@",
+              "lineHeight": 1.6,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "measured": {
+                "x": 38,
+                "y": 5,
+                "width": 113,
+                "height": 18
+              }
+            },
+            {
+              "type": "text",
+              "id": "IDh1M",
+              "name": "搜索与列表标题",
+              "fill": "#59636e",
+              "content": "搜索与列表",
+              "lineHeight": 1.6,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "measured": {
+                "x": 163,
+                "y": 5,
+                "width": 55,
+                "height": 18
+              }
+            },
+            {
+              "type": "frame",
+              "id": "wlUoT",
+              "name": "搜索与列表头部间距",
+              "width": "fill_container",
+              "height": 1,
+              "measured": {
+                "x": 230,
+                "y": 13.5,
+                "width": 846,
+                "height": 1
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 434,
+            "width": 1088,
+            "height": 28
+          }
+        },
+        {
+          "type": "frame",
+          "id": "g9qVqs",
+          "name": "单栏对照 56 → 60",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#ffffff",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "HW8BT",
+              "name": "原始行号 56",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zirfp",
+                  "name": "原始行号文字 56",
+                  "fill": "#59636e",
+                  "content": "56",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "s67oz",
+              "name": "工作区行号 60",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MxD3s",
+                  "name": "工作区行号文字 60",
+                  "fill": "#59636e",
+                  "content": "60",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "dCkQb",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dGudA",
+                  "name": "单栏变更符号",
+                  "fill": "#d1242f",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 10,
+                    "y": 0.5,
+                    "width": 0,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "N60vW4",
+              "name": "单栏代码 60",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FHpa6",
+                  "name": "工作区代码片段 60 0",
+                  "fill": "#1f2328",
+                  "content": "    <section className=",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 173,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "eAW7j",
+                  "name": "工作区代码片段 60 1",
+                  "fill": "#0a3069",
+                  "content": "'worktree-panel'",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 173,
+                    "y": 0.5,
+                    "width": 121,
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "x9IxZB",
+                  "name": "工作区代码片段 60 2",
+                  "fill": "#1f2328",
+                  "content": ">",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 294,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 302,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 462,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "hIl0x",
+          "name": "单栏对照 — → 61",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#dafbe1",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "C0Lasd",
+              "name": "原始行号 ",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fxplx",
+                  "name": "原始行号文字 ",
+                  "fill": "#59636e",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 34,
+                    "y": 1.5,
+                    "width": 0,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "O0ZDpq",
+              "name": "工作区行号 61",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rrIVW",
+                  "name": "工作区行号文字 61",
+                  "fill": "#59636e",
+                  "content": "61",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "yy5om",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "n2lSA",
+                  "name": "单栏变更符号",
+                  "fill": "#1a7f37",
+                  "content": "+",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 6,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "rEzhB",
+              "name": "单栏代码 61",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "l0Am5",
+                  "name": "工作区代码片段 61 0",
+                  "fill": "#1f2328",
+                  "content": "      <SearchInput",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 136,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 136,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 483,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "jqxvx",
+          "name": "单栏对照 — → 62",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#dafbe1",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "W3Jty",
+              "name": "原始行号 ",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RkKNA",
+                  "name": "原始行号文字 ",
+                  "fill": "#59636e",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 34,
+                    "y": 1.5,
+                    "width": 0,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "IfOT5",
+              "name": "工作区行号 62",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xLNPb",
+                  "name": "工作区行号文字 62",
+                  "fill": "#59636e",
+                  "content": "62",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "j8OKwK",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "z3gLG",
+                  "name": "单栏变更符号",
+                  "fill": "#1a7f37",
+                  "content": "+",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 6,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "QtXgu",
+              "name": "单栏代码 62",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "LoIDh",
+                  "name": "工作区代码片段 62 0",
+                  "fill": "#1f2328",
+                  "content": "        value={query}",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 158,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 158,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 504,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "eQQJ4",
+          "name": "单栏对照 — → 63",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#dafbe1",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "XgjRO",
+              "name": "原始行号 ",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "K0tkw",
+                  "name": "原始行号文字 ",
+                  "fill": "#59636e",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 34,
+                    "y": 1.5,
+                    "width": 0,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "d3SQ9",
+              "name": "工作区行号 63",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GwfWK",
+                  "name": "工作区行号文字 63",
+                  "fill": "#59636e",
+                  "content": "63",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "jhQTK",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "CBGzy",
+                  "name": "单栏变更符号",
+                  "fill": "#1a7f37",
+                  "content": "+",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 6,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "eqPmT",
+              "name": "单栏代码 63",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FRYWD",
+                  "name": "工作区代码片段 63 0",
+                  "fill": "#1f2328",
+                  "content": "        onChange={setQuery}",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 203,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 203,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 525,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "f1rx5E",
+          "name": "单栏对照 — → 64",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#dafbe1",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "lgnpT",
+              "name": "原始行号 ",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hXrn7",
+                  "name": "原始行号文字 ",
+                  "fill": "#59636e",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 34,
+                    "y": 1.5,
+                    "width": 0,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "ZvTpl",
+              "name": "工作区行号 64",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "M1gVx",
+                  "name": "工作区行号文字 64",
+                  "fill": "#59636e",
+                  "content": "64",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "VTPQ5",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wF1fC",
+                  "name": "单栏变更符号",
+                  "fill": "#1a7f37",
+                  "content": "+",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 6,
+                    "y": 0.5,
+                    "width": 8,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "o1lMr",
+              "name": "单栏代码 64",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "w4A36",
+                  "name": "工作区代码片段 64 0",
+                  "fill": "#1f2328",
+                  "content": "      />",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 61,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 61,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 546,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "EZFeY",
+          "name": "单栏对照 57 → 65",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#ffffff",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "AN1PK",
+              "name": "原始行号 57",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Y8J7kN",
+                  "name": "原始行号文字 57",
+                  "fill": "#59636e",
+                  "content": "57",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "m3b6V",
+              "name": "工作区行号 65",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "g0dOO",
+                  "name": "工作区行号文字 65",
+                  "fill": "#59636e",
+                  "content": "65",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "UY0cP",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "cnT99",
+                  "name": "单栏变更符号",
+                  "fill": "#d1242f",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 10,
+                    "y": 0.5,
+                    "width": 0,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "ZDNEQ",
+              "name": "单栏代码 65",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BXH1R",
+                  "name": "工作区代码片段 65 0",
+                  "fill": "#1f2328",
+                  "content": "      <WorktreeList",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 143,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 143,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 567,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "nyKRA",
+          "name": "单栏对照 58 → 66",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#ffffff",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "FIXxz",
+              "name": "原始行号 58",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Z9vqd",
+                  "name": "原始行号文字 58",
+                  "fill": "#59636e",
+                  "content": "58",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "te4mo",
+              "name": "工作区行号 66",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "g2F3e",
+                  "name": "工作区行号文字 66",
+                  "fill": "#59636e",
+                  "content": "66",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "IsYRr",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "j1j3iG",
+                  "name": "单栏变更符号",
+                  "fill": "#d1242f",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 10,
+                    "y": 0.5,
+                    "width": 0,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "UBqC4",
+              "name": "单栏代码 66",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "uxPoG",
+                  "name": "工作区代码片段 66 0",
+                  "fill": "#1f2328",
+                  "content": "        items={items}",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 158,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 158,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 588,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "Z9yfG",
+          "name": "单栏对照 59 → 67",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#ffffff",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "DAOLN",
+              "name": "原始行号 59",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GHG7Q",
+                  "name": "原始行号文字 59",
+                  "fill": "#59636e",
+                  "content": "59",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "dmD7E",
+              "name": "工作区行号 67",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UDVd6",
+                  "name": "工作区行号文字 67",
+                  "fill": "#59636e",
+                  "content": "67",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "V6JSA",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "p0ERs",
+                  "name": "单栏变更符号",
+                  "fill": "#d1242f",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 10,
+                    "y": 0.5,
+                    "width": 0,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "NTGzh",
+              "name": "单栏代码 67",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "krWde",
+                  "name": "工作区代码片段 67 0",
+                  "fill": "#1f2328",
+                  "content": "        onSelect={onSelect}",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 203,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 203,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 609,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "jZb4q",
+          "name": "单栏对照 60 → 68",
+          "width": "fill_container",
+          "height": 21,
+          "fill": "#ffffff",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "WVnnj",
+              "name": "原始行号 60",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "LycIX",
+                  "name": "原始行号文字 60",
+                  "fill": "#59636e",
+                  "content": "60",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 0,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "I0XENM",
+              "name": "工作区行号 68",
+              "width": 42,
+              "height": "fill_container",
+              "padding": [
+                0,
+                8,
+                0,
+                0
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NwNV8",
+                  "name": "工作区行号文字 68",
+                  "fill": "#59636e",
+                  "content": "68",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 20,
+                    "y": 1.5,
+                    "width": 14,
+                    "height": 18
+                  }
+                }
+              ],
+              "measured": {
+                "x": 42,
+                "y": 0,
+                "width": 42,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "yQDTx",
+              "name": "单栏变更标记",
+              "width": 20,
+              "height": "fill_container",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dopeD",
+                  "name": "单栏变更符号",
+                  "fill": "#d1242f",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 10,
+                    "y": 0.5,
+                    "width": 0,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 84,
+                "y": 0,
+                "width": 20,
+                "height": 21
+              }
+            },
+            {
+              "type": "frame",
+              "id": "nGDIF",
+              "name": "单栏代码 68",
+              "height": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OtIhZ",
+                  "name": "工作区代码片段 68 0",
+                  "fill": "#1f2328",
+                  "content": "      />",
+                  "lineHeight": 1.6,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal",
+                  "measured": {
+                    "x": 0,
+                    "y": 0.5,
+                    "width": 61,
+                    "height": 20
+                  }
+                }
+              ],
+              "measured": {
+                "x": 104,
+                "y": 0,
+                "width": 61,
+                "height": 21
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 630,
+            "width": 1088,
+            "height": 21
+          }
+        },
+        {
+          "type": "frame",
+          "id": "B4e4H",
+          "name": "单栏展开未修改代码",
+          "width": "fill_container",
+          "height": 28,
+          "fill": "#f6f8fa",
+          "stroke": "#d0d7de",
+          "strokeWidth": {
+            "top": 1,
+            "bottom": 1
+          },
+          "gap": 8,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "aasSy",
+              "name": "展开剩余上下文图标",
+              "width": 14,
+              "height": 14,
+              "icon": "chevrons-down-up",
+              "library": "lucide",
+              "fill": "#59636e",
+              "measured": {
+                "x": 469,
+                "y": 7,
+                "width": 14,
+                "height": 14
+              }
+            },
+            {
+              "type": "text",
+              "id": "J3IoXI",
+              "name": "展开剩余上下文标签",
+              "fill": "#59636e",
+              "content": "展开后续 60 行未修改代码",
+              "fontFamily": "Noto Sans SC",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "measured": {
+                "x": 491,
+                "y": 6,
+                "width": 128,
+                "height": 16
+              }
+            }
+          ],
+          "measured": {
+            "x": 0,
+            "y": 651,
+            "width": 1088,
+            "height": 28
+          }
+        }
+      ],
+      "measured": {
+        "x": 0,
+        "y": 168,
+        "width": 1088,
+        "height": 680
+      }
+    },
+    {
+      "type": "frame",
+      "id": "fUE9M",
+      "name": "文件查看器快捷键说明",
+      "width": "fill_container",
+      "height": 28,
+      "fill": "#f6f8fa",
+      "stroke": "#d0d7de",
+      "strokeWidth": {
+        "top": 1
+      },
+      "gap": 16,
+      "padding": [
+        0,
+        16
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "I51h1c",
+          "name": "修改导航快捷键",
+          "fill": "#59636e",
+          "content": "Alt ↑ / ↓  定位修改",
+          "fontFamily": "Noto Sans SC",
+          "fontSize": 11,
+          "fontWeight": "normal",
+          "measured": {
+            "x": 16,
+            "y": 6,
+            "width": 97,
+            "height": 16
+          }
+        },
+        {
+          "type": "text",
+          "id": "YMFIY",
+          "name": "打开源文件快捷键",
+          "fill": "#59636e",
+          "content": "Ctrl Enter  打开源文件",
+          "fontFamily": "Noto Sans SC",
+          "fontSize": 11,
+          "fontWeight": "normal",
+          "measured": {
+            "x": 129,
+            "y": 6,
+            "width": 109,
+            "height": 16
+          }
+        },
+        {
+          "type": "frame",
+          "id": "hq5jg",
+          "name": "查看器底栏间距",
+          "width": "fill_container",
+          "height": 1,
+          "measured": {
+            "x": 254,
+            "y": 13.5,
+            "width": 712,
+            "height": 1
+          }
+        },
+        {
+          "type": "text",
+          "id": "kXTl6",
+          "name": "文件显示范围",
+          "fill": "#59636e",
+          "content": "3 处修改 · 128 行",
+          "fontFamily": "Noto Sans SC",
+          "fontSize": 11,
+          "fontWeight": "normal",
+          "measured": {
+            "x": 982,
+            "y": 6,
+            "width": 90,
+            "height": 16
+          }
+        }
+      ],
+      "measured": {
+        "x": 0,
+        "y": 848,
+        "width": 1088,
+        "height": 28
+      }
+    }
+  ],
+  "measured": {
+    "x": 1760,
+    "y": 0,
+    "width": 1088,
+    "height": 876
+  }
+}

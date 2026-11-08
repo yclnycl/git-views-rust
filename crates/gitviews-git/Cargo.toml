@@ -1,0 +1,19 @@
+[package]
+name = "gitviews-git"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+description = "Native Git repository access for GitViews"
+
+[dependencies]
+git2 = { version = "=0.21.0", default-features = false, features = ["https", "ssh", "vendored-libgit2"] }
+tracing.workspace = true
+
+# WinCNG omits Ed25519. Build libssh2 with bundled static OpenSSL so the
+# portable executable also supports modern OpenSSH/Git hosting keys.
+[target.'cfg(windows)'.dependencies]
+libssh2-sys = { version = "=0.3.3", features = ["openssl-on-win32", "vendored-openssl"] }
+
+[lints]
+workspace = true

@@ -1,0 +1,7 @@
+/target/
+/dist/
+/.tools/
+/.codex-remote-attachments/
+*.log
+.DS_Store
+Thumbs.db

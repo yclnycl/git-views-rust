@@ -1,0 +1,4 @@
+# Keep development builds unchanged. Explicit --target keeps static CRT flags
+# away from host build scripts and proc-macro dynamic libraries.
+[alias]
+portable = ['build', '--release', '--locked', '--target', 'x86_64-pc-windows-msvc', '--config', 'target.x86_64-pc-windows-msvc.rustflags=["-C","target-feature=+crt-static"]']

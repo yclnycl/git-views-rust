@@ -1,0 +1,28 @@
+[workspace]
+members = ["crates/gitviews-app", "crates/gitviews-service", "crates/gitviews-git"]
+default-members = ["crates/gitviews-app"]
+resolver = "3"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.99"
+publish = false
+
+[workspace.dependencies]
+gpui-kit = "=0.8.1"
+gitviews-service = { path = "crates/gitviews-service" }
+gitviews-git = { path = "crates/gitviews-git" }
+tracing = "0.1.44"
+tracing-subscriber = { version = "0.3", default-features = false, features = ["std", "registry", "fmt", "env-filter"] }
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[profile.dev]
+debug = 1
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+strip = "debuginfo"

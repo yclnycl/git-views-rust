@@ -1,0 +1,20 @@
+[package]
+name = "gitviews-service"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+description = "Application services for GitViews"
+
+[dependencies]
+gitviews-git = { path = "../gitviews-git" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+notify = "=8.2.1"
+tracing.workspace = true
+regex = "=1.13.1"
+globset = "=0.4.21"
+toml = "=0.8.23"
+
+[lints]
+workspace = true

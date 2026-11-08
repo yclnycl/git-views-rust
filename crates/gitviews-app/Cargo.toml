@@ -1,0 +1,49 @@
+[package]
+name = "gitviews-app"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+default-run = "gitviews"
+
+[[bin]]
+name = "gitviews"
+path = "src/main.rs"
+
+[dependencies]
+gpui-kit = { workspace = true, features = [
+    "tree-sitter-rust",
+    "tree-sitter-c",
+    "tree-sitter-cpp",
+    "tree-sitter-csharp",
+    "tree-sitter-java",
+    "tree-sitter-go",
+    "tree-sitter-sql",
+    "tree-sitter-lua",
+    "tree-sitter-cmake",
+    "tree-sitter-make",
+    "tree-sitter-javascript",
+    "tree-sitter-typescript",
+    "tree-sitter-tsx",
+    "tree-sitter-toml",
+    "tree-sitter-markdown",
+    "tree-sitter-python",
+    "tree-sitter-css",
+    "tree-sitter-html",
+    "tree-sitter-yaml",
+    "tree-sitter-bash",
+] }
+gitviews-service.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[build-dependencies]
+embed-resource = "=3.0.12"
+
+[dev-dependencies]
+gpui-kit = { workspace = true, features = ["test-support"] }
+
+[lints]
+workspace = true

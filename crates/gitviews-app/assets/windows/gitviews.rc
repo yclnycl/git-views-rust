@@ -1,0 +1,2 @@
+// GPUI loads icon resource 1 for the native window and taskbar.
+1 ICON "gitviews.ico"

@@ -1,0 +1,21 @@
+# GitViews 配置示例。默认文件：%APPDATA%/GitViews/config.toml
+# 也可通过 --config 指定其他路径。未填写的字段使用默认值。
+version = 1
+read_only = true # 默认只读简单模式；关闭后启用 Git 写入与高级功能
+
+[appearance]
+theme = "dark" # system / light / dark
+editor_font_size = 12.5 # 10–24，作用于源码与 Diff
+
+[preview]
+cache_items = 48 # 1–256
+cache_mib = 32 # 8–256 MiB
+retained_panes = 8 # 1–32
+retained_mib = 32 # 8–256 MiB；当前预览受保护，并非进程内存上限
+
+[refresh]
+scan_interval_secs = 10 # 2–300 秒
+debounce_ms = 300 # 50–2000 毫秒；连续事件最多等待2秒
+
+[logging]
+level = "debug" # off / error / warn / info / debug / trace；重启生效
