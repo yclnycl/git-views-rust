@@ -6,7 +6,6 @@
 
 use std::{
     borrow::Cow,
-    collections::HashMap,
     error::Error,
     fmt,
     fs::{self, File, Metadata},
@@ -449,7 +448,6 @@ impl ContentSearchIndex {
         filters: &CompiledSearchOptions,
     ) -> ContentSearchResults {
         let mut result = ContentSearchResults::default();
-        let mut directories = DirectoryChecks::default();
         while !state.interrupted() {
             let position = state.next.fetch_add(1, Ordering::Relaxed);
             let Some(path) = self.paths.get(position) else {
@@ -459,8 +457,7 @@ impl ContentSearchIndex {
                 continue;
             }
             result.scanned_files += 1;
-            let Some((absolute, metadata)) = checked_file(&self.root, path, &mut directories)
-            else {
+            let Some((absolute, metadata)) = checked_file(&self.root, path) else {
                 result.skipped_files += 1;
                 continue;
             };
@@ -512,7 +509,6 @@ impl ContentSearchIndex {
                 self.limits.max_file_bytes,
                 state,
                 &mut result.read_bytes,
-                &mut directories,
             ) else {
                 result.skipped_files += 1;
                 continue;
@@ -656,41 +652,16 @@ pub(crate) fn checked_root(root: &Path) -> Result<PathBuf, ContentSearchError> {
     fs::canonicalize(root).map_err(|error| ContentSearchError::InvalidRoot(error.to_string()))
 }
 
-#[derive(Default)]
-struct DirectoryChecks(HashMap<PathBuf, SystemTime>);
-
-impl DirectoryChecks {
-    fn plain(&mut self, path: &Path, metadata: &Metadata) -> bool {
-        // Still inspect every directory for links on every file access. Only
-        // repository-marker probes are reused, while its directory timestamp
-        // is unchanged. Creating/renaming a .git marker changes that timestamp.
-        let modified = metadata.modified().ok();
-        if modified.is_some_and(|stamp| self.0.get(path) == Some(&stamp)) {
-            return true;
-        }
-        if fs::symlink_metadata(path.join(".git")).is_ok()
-            || (fs::symlink_metadata(path.join("HEAD")).is_ok()
-                && fs::symlink_metadata(path.join("objects")).is_ok()
-                && fs::symlink_metadata(path.join("refs")).is_ok())
-        {
-            self.0.remove(path);
-            return false;
-        }
-        if let Some(modified) = modified {
-            if self.0.len() >= 256 {
-                self.0.clear();
-            }
-            self.0.insert(path.to_owned(), modified);
-        }
-        true
-    }
+fn plain_directory(path: &Path) -> bool {
+    // Directory timestamps do not reliably change when a marker is created,
+    // especially on Windows. Probe every time to detect new nested repositories.
+    !(fs::symlink_metadata(path.join(".git")).is_ok()
+        || (fs::symlink_metadata(path.join("HEAD")).is_ok()
+            && fs::symlink_metadata(path.join("objects")).is_ok()
+            && fs::symlink_metadata(path.join("refs")).is_ok()))
 }
 
-fn checked_file(
-    root: &Path,
-    relative: &str,
-    directories: &mut DirectoryChecks,
-) -> Option<(PathBuf, Metadata)> {
+fn checked_file(root: &Path, relative: &str) -> Option<(PathBuf, Metadata)> {
     let mut path = root.to_owned();
     let parts: Vec<_> = relative.split('/').collect();
     for (position, part) in parts.iter().enumerate() {
@@ -705,14 +676,13 @@ fn checked_file(
         if !metadata.is_dir() {
             return None;
         }
-        if !directories.plain(&path, &metadata) {
+        if !plain_directory(&path) {
             return None;
         }
     }
     None
 }
 
-#[allow(clippy::too_many_arguments)]
 fn read_file(
     path: &Path,
     root: &Path,
@@ -721,7 +691,6 @@ fn read_file(
     max_bytes: usize,
     state: &QueryState<'_>,
     read_bytes: &mut u64,
-    directories: &mut DirectoryChecks,
 ) -> Option<Vec<u8>> {
     let mut options = File::options();
     options.read(true);
@@ -758,7 +727,7 @@ fn read_file(
         }
         bytes.extend_from_slice(&chunk[..count]);
     }
-    let (_, after) = checked_file(root, relative, directories)?;
+    let (_, after) = checked_file(root, relative)?;
     if Fingerprint::read(&opened) != Fingerprint::read(&after) || after.len() != bytes.len() as u64
     {
         return None;
@@ -1202,17 +1171,23 @@ mod tests {
     }
 
     #[test]
-    fn directory_marker_cache_rechecks_new_nested_repositories() {
+    fn directory_checks_detect_new_nested_repositories() {
         let mut fixture = Fixture::new();
         fixture.file("nested/plain.txt", b"needle");
-        let mut directories = DirectoryChecks::default();
-        assert!(checked_file(&fixture.root, "nested/plain.txt", &mut directories).is_some());
+        assert!(checked_file(&fixture.root, "nested/plain.txt").is_some());
         fs::write(
             fixture.root.join("nested/.git"),
             b"gitdir: another-repository",
         )
         .unwrap();
-        assert!(checked_file(&fixture.root, "nested/plain.txt", &mut directories).is_none());
+        assert!(checked_file(&fixture.root, "nested/plain.txt").is_none());
+
+        fs::remove_file(fixture.root.join("nested/.git")).unwrap();
+        assert!(checked_file(&fixture.root, "nested/plain.txt").is_some());
+        fs::write(fixture.root.join("nested/HEAD"), b"ref: refs/heads/main").unwrap();
+        fs::create_dir(fixture.root.join("nested/objects")).unwrap();
+        fs::create_dir(fixture.root.join("nested/refs")).unwrap();
+        assert!(checked_file(&fixture.root, "nested/plain.txt").is_none());
     }
 
     #[cfg(unix)]
