@@ -73,11 +73,15 @@ cat > "$stage/GitViews.app/Contents/Info.plist" <<EOF
 </dict></plist>
 EOF
 plutil -lint "$stage/GitViews.app/Contents/Info.plist"
+# Apple silicon requires a valid code signature. This local ad-hoc signature
+# does not provide Developer ID signing or notarization.
+codesign --force --sign - "$stage/GitViews.app"
+codesign --verify --strict --verbose=2 "$stage/GitViews.app"
 cat > "$stage/README.txt" <<'EOF'
 GitViews for macOS
 
 Extract the archive and open GitViews.app. Move it to Applications if desired.
-This build is not signed or notarized. macOS Gatekeeper may prevent it from
+This build is not Developer ID signed or notarized. macOS Gatekeeper may prevent it from
 opening; see Apple's instructions for opening an app from an unidentified developer.
 The third-party-licenses directory contains dependency license information.
 EOF
