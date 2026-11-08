@@ -111,7 +111,7 @@ fn sides_are_read_only_and_editing_result_submits_snapshot_token(cx: &mut TestAp
     load(handle, &view, cx);
     cx.update_window(handle.into(), |_, window, cx| {
         window.click("conflict-side-0", cx);
-        window.press("ctrl-a", cx);
+        window.press(crate::ui::headless::SELECT_ALL_KEY, cx);
         window.input("must not edit", cx);
         assert_eq!(
             view.read(cx)
@@ -127,7 +127,7 @@ fn sides_are_read_only_and_editing_result_submits_snapshot_token(cx: &mut TestAp
             "base\n"
         );
         window.click("conflict-result", cx);
-        window.press("ctrl-a", cx);
+        window.press(crate::ui::headless::SELECT_ALL_KEY, cx);
         window.input("合并结果\n", cx);
         window.click("conflict-save-result", cx);
     })
@@ -176,7 +176,7 @@ fn unsaved_result_is_protected_when_switching_and_late_reads_are_rejected(cx: &m
     load(handle, &view, cx);
     cx.update_window(handle.into(), |_, window, cx| {
         window.click("conflict-result", cx);
-        window.press("ctrl-a", cx);
+        window.press(crate::ui::headless::SELECT_ALL_KEY, cx);
         window.input("keep editor work", cx);
         window.click(("conflict-file", 1usize), cx);
         assert!(window.find("conflict-unsaved-confirmation").visible());

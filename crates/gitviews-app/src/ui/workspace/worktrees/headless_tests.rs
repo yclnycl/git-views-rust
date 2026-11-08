@@ -222,7 +222,7 @@ fn headless_git_settings_load_save_and_modal_isolation(cx: &mut TestAppContext) 
         assert!(window.try_find("settings-save").is_none());
         assert!(window.try_find("worktree-close").is_none());
         window.click("git-settings-user-name", cx);
-        window.press("ctrl-a", cx);
+        window.press(crate::ui::headless::SELECT_ALL_KEY, cx);
         window.input("新的提交身份", cx);
     })
     .unwrap();
@@ -283,7 +283,7 @@ fn headless_git_settings_application_entry_and_cancel_preserve_repository_config
         assert!(window.try_find("settings-save").is_none());
         assert!(fixture.workspace.read(cx).git_settings_return_to_app);
         window.click("git-settings-user-name", cx);
-        window.press("ctrl-a", cx);
+        window.press(crate::ui::headless::SELECT_ALL_KEY, cx);
         window.input("不保存", cx);
     })
     .unwrap();
@@ -510,7 +510,7 @@ fn cli_path(value: &str) -> &str {
 
 fn input(window: &mut Window, id: &'static str, value: &str, cx: &mut App) {
     window.click(id, cx);
-    window.press("ctrl-a", cx);
+    window.press(crate::ui::headless::SELECT_ALL_KEY, cx);
     window.input(value, cx);
     assert_eq!(window.find(id).value(), Some(value));
 }

@@ -108,7 +108,7 @@ fn requests(cx: &TestAppContext, harness: &Entity<Harness>) -> Vec<Request> {
 
 fn input(window: &mut Window, id: &'static str, value: &str, cx: &mut gpui_kit::App) {
     window.click(id, cx);
-    window.press("ctrl-a", cx);
+    window.press(crate::ui::headless::SELECT_ALL_KEY, cx);
     window.input(value, cx);
     assert_eq!(window.find(id).value(), Some(value));
 }

@@ -184,7 +184,7 @@ impl Fixture {
                 .to_platform_input(),
                 cx,
             );
-            window.press("ctrl-a", cx);
+            window.press(crate::ui::headless::SELECT_ALL_KEY, cx);
             window.input(description, cx);
             assert_eq!(
                 window.find_by_label("提交详细描述").value(),
@@ -242,7 +242,7 @@ fn changed_text() -> String {
 }
 fn fill(window: &mut Window, id: &'static str, text: &str, cx: &mut App) {
     window.click(id, cx);
-    window.press("ctrl-a", cx);
+    window.press(crate::ui::headless::SELECT_ALL_KEY, cx);
     window.input(text, cx);
     assert_eq!(window.find(id).value(), Some(text));
 }

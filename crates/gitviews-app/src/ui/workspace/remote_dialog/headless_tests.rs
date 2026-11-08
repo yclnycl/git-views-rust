@@ -81,7 +81,7 @@ fn ssh_prompt() -> RemoteDialogPrompt {
 
 fn replace_input(window: &mut Window, id: &'static str, value: &str, cx: &mut App) {
     window.click(id, cx);
-    window.press("ctrl-a", cx);
+    window.press(crate::ui::headless::SELECT_ALL_KEY, cx);
     window.input(value, cx);
 }
 

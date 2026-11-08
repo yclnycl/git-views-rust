@@ -1489,7 +1489,7 @@ mod tests {
             window.render_frame(cx);
             window.click(("history-tools-recovery-entry", 0usize), cx);
             window.click("history-tools-branch-name", cx);
-            window.press("ctrl-a", cx);
+            window.press(crate::ui::headless::SELECT_ALL_KEY, cx);
             window.input("restored/中文", cx);
             window.click("history-tools-restore", cx);
             window.click("history-tools-restore", cx);

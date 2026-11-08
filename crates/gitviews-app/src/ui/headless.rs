@@ -5,6 +5,19 @@ use gpui_kit::{
     WindowHandle, WindowOptions, base::Root,
 };
 
+// GPUI follows the native select-all shortcut on each platform.
+pub(super) const SELECT_ALL_KEY: &str = if cfg!(target_os = "macos") {
+    "cmd-a"
+} else {
+    "ctrl-a"
+};
+
+pub(super) const COPY_KEY: &str = if cfg!(target_os = "macos") {
+    "cmd-c"
+} else {
+    "ctrl-c"
+};
+
 pub(super) fn open_window<V: Render>(
     cx: &mut TestAppContext,
     size: Size<Pixels>,

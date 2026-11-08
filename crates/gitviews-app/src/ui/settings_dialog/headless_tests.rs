@@ -83,7 +83,7 @@ fn harness(
 
 fn replace_font(window: &mut Window, value: &str, cx: &mut gpui_kit::App) {
     window.click("settings-font-size", cx);
-    window.press("ctrl-a", cx);
+    window.press(crate::ui::headless::SELECT_ALL_KEY, cx);
     window.input(value, cx);
     assert_eq!(window.find("settings-font-size").value(), Some(value));
 }
@@ -226,7 +226,7 @@ fn reloading_disables_edits_and_duplicate_requests_but_allows_cancel(cx: &mut Te
         );
         window.click(("settings-theme", 1usize), cx);
         window.click("settings-font-size", cx);
-        window.press("ctrl-a", cx);
+        window.press(crate::ui::headless::SELECT_ALL_KEY, cx);
         window.input("99", cx);
     })
     .expect("try edits during reload");

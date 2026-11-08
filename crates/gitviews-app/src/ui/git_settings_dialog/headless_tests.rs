@@ -116,7 +116,7 @@ fn scroll(window: &mut Window, bottom: bool, cx: &mut App) {
 
 fn input(window: &mut Window, id: &'static str, value: &str, cx: &mut App) {
     window.click(id, cx);
-    window.press("ctrl-a", cx);
+    window.press(crate::ui::headless::SELECT_ALL_KEY, cx);
     window.input(value, cx);
     assert_eq!(window.find(id).value(), Some(value));
 }

@@ -23,7 +23,7 @@ fn replace_input(
     cx: &mut gpui_kit::App,
 ) {
     window.click(id, cx);
-    window.press("ctrl-a", cx);
+    window.press(crate::ui::headless::SELECT_ALL_KEY, cx);
     window.input(value, cx);
     assert_eq!(window.find(id).value(), Some(value));
 }
@@ -132,7 +132,7 @@ fn headless_settings_save_persists_and_applies_to_the_workspace(cx: &mut TestApp
     cx.update_window(fixture.window.into(), |_, window, cx| {
         window.click(("settings-theme", 1_usize), cx);
         window.click("settings-font-size", cx);
-        window.press("ctrl-a", cx);
+        window.press(crate::ui::headless::SELECT_ALL_KEY, cx);
         window.input("14.5", cx);
         assert_eq!(window.find("settings-font-size").value(), Some("14.5"));
         window.click("settings-save", cx);

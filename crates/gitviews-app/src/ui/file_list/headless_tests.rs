@@ -556,7 +556,7 @@ fn filtering_reveals_a_collapsed_chinese_path_and_matches_ascii_case_insensitive
     cx.update_window(window.into(), |_, window, cx| {
         click_row(window, 1, 1, cx);
         window.click("file-filter", cx);
-        window.press("ctrl-a", cx);
+        window.press(crate::ui::headless::SELECT_ALL_KEY, cx);
         window.input("MAIN.RS", cx);
     })
     .expect("open the Chinese match and type a case-insensitive source filter");
@@ -597,7 +597,7 @@ fn filtering_submodule_paths_highlights_original_unicode_and_keeps_double_click_
     for (query, expected) in [("MODULES\\İ", "modules/İ"), ("子模块", "子模块")] {
         cx.update_window(window.into(), |_, window, cx| {
             window.click("file-filter", cx);
-            window.press("ctrl-a", cx);
+            window.press(crate::ui::headless::SELECT_ALL_KEY, cx);
             window.input(query, cx);
         })
         .unwrap();

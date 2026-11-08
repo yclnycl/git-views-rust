@@ -121,7 +121,7 @@ impl Fixture {
             self.workspace
                 .update(cx, |view, cx| view.open_file_search(window, cx));
             window.render_frame(cx);
-            window.press("ctrl-a", cx);
+            window.press(crate::ui::headless::SELECT_ALL_KEY, cx);
             window.input(query, cx);
         })
         .unwrap();
@@ -146,7 +146,7 @@ impl Fixture {
     fn copy_cursor_line(&self, cx: &mut TestAppContext) -> Option<String> {
         cx.update_window(self.window.into(), |_, window, cx| {
             window.press("shift-end", cx);
-            window.press("ctrl-c", cx);
+            window.press(crate::ui::headless::COPY_KEY, cx);
             cx.read_from_clipboard().and_then(|item| item.text())
         })
         .unwrap()
@@ -155,7 +155,7 @@ impl Fixture {
     fn filter(&self, id: &'static str, value: &str, cx: &mut TestAppContext) {
         cx.update_window(self.window.into(), |_, window, cx| {
             window.click(id, cx);
-            window.press("ctrl-a", cx);
+            window.press(crate::ui::headless::SELECT_ALL_KEY, cx);
             window.input(value, cx);
             assert_eq!(window.find(id).value(), Some(value));
         })
