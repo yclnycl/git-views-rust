@@ -46,10 +46,21 @@ a:focus-visible,.theme-toggle:focus-visible{outline:2px solid var(--focus);outli
   .theme-toggle{width:34px;height:34px;padding:7px}
 }
 
-/* Real screenshots are cropped only to omit local paths and switch with the page theme. */
+/* Full-resolution screenshots switch with the page theme. */
 .app-screenshot{position:relative;display:block;overflow:hidden;line-height:0;border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow)}
 .app-screenshot img{display:block;width:100%;height:auto}
 .screenshot-light{display:none}
 :root[data-theme="light"] .screenshot-dark{display:none}
 :root[data-theme="light"] .screenshot-light{display:block}
 @media(prefers-color-scheme:light){:root:not([data-theme]) .screenshot-dark{display:none}:root:not([data-theme]) .screenshot-light{display:block}}
+
+/* Give the real application screenshot room without cropping or stretching it. */
+.hero{grid-template-columns:minmax(0,1fr);gap:55px}
+.hero-copy{max-width:720px}
+.hero .lead{max-width:600px}
+.product-art{width:100%;max-width:none}
+.app-screenshot img{width:100%;height:auto}
+.card-link{display:inline-block;margin-top:18px;color:var(--mint);font-size:12px;font-weight:700}
+.card-link:hover{text-decoration:underline}
+@media(max-width:900px){.hero{gap:48px}.product-art{max-width:none}}
+@media(max-width:620px){.hero{gap:36px}.art-caption{font-size:10px}}
