@@ -1,0 +1,538 @@
+MACOS DEPENDENCY LICENSING: SUPPLEMENTAL SOURCE MATERIAL
+Manifest statements, source headers and upstream license texts below are provenance records; this inventory is not a legal completeness certification.
+Where the upstream archive supplies no copyright notice, no copyright holder or year is inferred.
+For crates allowing MIT, the verbatim MIT terms in the common section below apply as the chosen alternative.
+
+accesskit_macos 0.26.3 — MIT OR Apache-2.0
+Crate manifest: https://docs.rs/crate/accesskit_macos/0.26.3/source/Cargo.toml
+Authors as declared by manifest: The AccessKit contributors
+Upstream version reference: https://github.com/AccessKit/accesskit/tree/c88605b96d04431f9c3c792464a0f2f253480e94
+Upstream license source: https://github.com/AccessKit/accesskit/blob/c88605b96d04431f9c3c792464a0f2f253480e94/LICENSE-MIT
+Copyright lines found in packaged source files (not a complete attribution inventory):
+// Copyright 2018 The Chromium Authors. All rights reserved.
+// Copyright 2022 The AccessKit Authors. All rights reserved.
+// Copyright 2023 The AccessKit Authors. All rights reserved.
+
+block2 0.5.1 — MIT
+Crate manifest: https://docs.rs/crate/block2/0.5.1/source/Cargo.toml
+Authors as declared by manifest: Steven Sheldon, Mads Marquart <mads@marquart.dk>
+Upstream version reference: https://github.com/madsmtm/objc2/tree/4fc083f1c6d6784577e38b0ee8dbd344481e2fd2
+Upstream license source: https://github.com/madsmtm/objc2/blob/4fc083f1c6d6784577e38b0ee8dbd344481e2fd2/LICENSE.txt
+
+block2 0.6.2 — MIT
+Crate manifest: https://docs.rs/crate/block2/0.6.2/source/Cargo.toml
+Authors as declared by manifest: Mads Marquart <mads@marquart.dk>
+Upstream version reference: https://github.com/madsmtm/objc2/tree/b4167b582b2f75f9a1be75495c41b765344fd03c
+Upstream license source: https://github.com/madsmtm/objc2/blob/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md
+
+block 0.1.6 — MIT
+Crate manifest: https://docs.rs/crate/block/0.1.6/source/Cargo.toml
+Authors as declared by manifest: Steven Sheldon
+Upstream version reference: https://github.com/SSheldon/rust-block/tree/0.1.6
+Upstream version-specific license text not found or revision unavailable; see common MIT text below.
+
+dispatch2 0.3.1 — Zlib OR Apache-2.0 OR MIT
+Crate manifest: https://docs.rs/crate/dispatch2/0.3.1/source/Cargo.toml
+Authors as declared by manifest: Mads Marquart <mads@marquart.dk>, Mary <mary@mary.zone>
+Upstream version reference: https://github.com/madsmtm/objc2/tree/8852b424193ca41602281b3d7540d7c8ed51e49a
+Upstream license source: https://github.com/madsmtm/objc2/blob/8852b424193ca41602281b3d7540d7c8ed51e49a/LICENSE.md
+
+malloc_buf 0.0.6 — MIT
+Crate manifest: https://docs.rs/crate/malloc_buf/0.0.6/source/Cargo.toml
+Authors as declared by manifest: Steven Sheldon
+Upstream version reference: https://github.com/SSheldon/malloc_buf/tree/0.0.6
+Upstream version-specific license text not found or revision unavailable; see common MIT text below.
+
+objc-sys 0.3.5 — MIT
+Crate manifest: https://docs.rs/crate/objc-sys/0.3.5/source/Cargo.toml
+Authors as declared by manifest: Mads Marquart <mads@marquart.dk>
+Upstream version reference: https://github.com/madsmtm/objc2/tree/4fc083f1c6d6784577e38b0ee8dbd344481e2fd2
+Upstream license source: https://github.com/madsmtm/objc2/blob/4fc083f1c6d6784577e38b0ee8dbd344481e2fd2/LICENSE.txt
+
+objc2-app-kit 0.2.2 — MIT
+Crate manifest: https://docs.rs/crate/objc2-app-kit/0.2.2/source/Cargo.toml
+Authors as declared by manifest: (none declared in packaged manifest)
+Upstream version reference: https://github.com/madsmtm/objc2/tree/e282618be4c3a3b9542957e0c8540e9588472ce8
+Upstream license source: https://github.com/madsmtm/objc2/blob/e282618be4c3a3b9542957e0c8540e9588472ce8/LICENSE.txt
+
+objc2-app-kit 0.3.2 — Zlib OR Apache-2.0 OR MIT
+Crate manifest: https://docs.rs/crate/objc2-app-kit/0.3.2/source/Cargo.toml
+Authors as declared by manifest: (none declared in packaged manifest)
+Upstream version reference: https://github.com/madsmtm/objc2/tree/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b
+Upstream license source: https://github.com/madsmtm/objc2/blob/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md
+
+objc2-cloud-kit 0.3.2 — Zlib OR Apache-2.0 OR MIT
+Crate manifest: https://docs.rs/crate/objc2-cloud-kit/0.3.2/source/Cargo.toml
+Authors as declared by manifest: (none declared in packaged manifest)
+Upstream version reference: https://github.com/madsmtm/objc2/tree/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b
+Upstream license source: https://github.com/madsmtm/objc2/blob/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md
+
+objc2-core-data 0.2.2 — MIT
+Crate manifest: https://docs.rs/crate/objc2-core-data/0.2.2/source/Cargo.toml
+Authors as declared by manifest: (none declared in packaged manifest)
+Upstream version reference: https://github.com/madsmtm/objc2/tree/e282618be4c3a3b9542957e0c8540e9588472ce8
+Upstream license source: https://github.com/madsmtm/objc2/blob/e282618be4c3a3b9542957e0c8540e9588472ce8/LICENSE.txt
+
+objc2-core-data 0.3.2 — Zlib OR Apache-2.0 OR MIT
+Crate manifest: https://docs.rs/crate/objc2-core-data/0.3.2/source/Cargo.toml
+Authors as declared by manifest: (none declared in packaged manifest)
+Upstream version reference: https://github.com/madsmtm/objc2/tree/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b
+Upstream license source: https://github.com/madsmtm/objc2/blob/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md
+
+objc2-core-foundation 0.3.2 — Zlib OR Apache-2.0 OR MIT
+Crate manifest: https://docs.rs/crate/objc2-core-foundation/0.3.2/source/Cargo.toml
+Authors as declared by manifest: (none declared in packaged manifest)
+Upstream version reference: https://github.com/madsmtm/objc2/tree/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b
+Upstream license source: https://github.com/madsmtm/objc2/blob/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md
+
+objc2-core-graphics 0.3.2 — Zlib OR Apache-2.0 OR MIT
+Crate manifest: https://docs.rs/crate/objc2-core-graphics/0.3.2/source/Cargo.toml
+Authors as declared by manifest: (none declared in packaged manifest)
+Upstream version reference: https://github.com/madsmtm/objc2/tree/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b
+Upstream license source: https://github.com/madsmtm/objc2/blob/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md
+
+objc2-core-image 0.2.2 — MIT
+Crate manifest: https://docs.rs/crate/objc2-core-image/0.2.2/source/Cargo.toml
+Authors as declared by manifest: (none declared in packaged manifest)
+Upstream version reference: https://github.com/madsmtm/objc2/tree/e282618be4c3a3b9542957e0c8540e9588472ce8
+Upstream license source: https://github.com/madsmtm/objc2/blob/e282618be4c3a3b9542957e0c8540e9588472ce8/LICENSE.txt
+
+objc2-core-image 0.3.2 — Zlib OR Apache-2.0 OR MIT
+Crate manifest: https://docs.rs/crate/objc2-core-image/0.3.2/source/Cargo.toml
+Authors as declared by manifest: (none declared in packaged manifest)
+Upstream version reference: https://github.com/madsmtm/objc2/tree/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b
+Upstream license source: https://github.com/madsmtm/objc2/blob/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md
+
+objc2-core-services 0.3.2 — Zlib OR Apache-2.0 OR MIT
+Crate manifest: https://docs.rs/crate/objc2-core-services/0.3.2/source/Cargo.toml
+Authors as declared by manifest: (none declared in packaged manifest)
+Upstream version reference: https://github.com/madsmtm/objc2/tree/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b
+Upstream license source: https://github.com/madsmtm/objc2/blob/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md
+
+objc2-core-text 0.3.2 — Zlib OR Apache-2.0 OR MIT
+Crate manifest: https://docs.rs/crate/objc2-core-text/0.3.2/source/Cargo.toml
+Authors as declared by manifest: (none declared in packaged manifest)
+Upstream version reference: https://github.com/madsmtm/objc2/tree/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b
+Upstream license source: https://github.com/madsmtm/objc2/blob/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md
+
+objc2-core-video 0.3.2 — Zlib OR Apache-2.0 OR MIT
+Crate manifest: https://docs.rs/crate/objc2-core-video/0.3.2/source/Cargo.toml
+Authors as declared by manifest: (none declared in packaged manifest)
+Upstream version reference: https://github.com/madsmtm/objc2/tree/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b
+Upstream license source: https://github.com/madsmtm/objc2/blob/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md
+
+objc2-encode 4.1.0 — MIT
+Crate manifest: https://docs.rs/crate/objc2-encode/4.1.0/source/Cargo.toml
+Authors as declared by manifest: Mads Marquart <mads@marquart.dk>
+Upstream version reference: https://github.com/madsmtm/objc2/tree/8d214f5477365ffcbcbb7de058c86ed9a518efb7
+Upstream license source: https://github.com/madsmtm/objc2/blob/8d214f5477365ffcbcbb7de058c86ed9a518efb7/LICENSE.md
+
+objc2-io-surface 0.3.2 — Zlib OR Apache-2.0 OR MIT
+Crate manifest: https://docs.rs/crate/objc2-io-surface/0.3.2/source/Cargo.toml
+Authors as declared by manifest: (none declared in packaged manifest)
+Upstream version reference: https://github.com/madsmtm/objc2/tree/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b
+Upstream license source: https://github.com/madsmtm/objc2/blob/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md
+
+objc2-metal 0.2.2 — MIT
+Crate manifest: https://docs.rs/crate/objc2-metal/0.2.2/source/Cargo.toml
+Authors as declared by manifest: (none declared in packaged manifest)
+Upstream version reference: https://github.com/madsmtm/objc2/tree/e282618be4c3a3b9542957e0c8540e9588472ce8
+Upstream license source: https://github.com/madsmtm/objc2/blob/e282618be4c3a3b9542957e0c8540e9588472ce8/LICENSE.txt
+
+objc2-metal 0.3.2 — Zlib OR Apache-2.0 OR MIT
+Crate manifest: https://docs.rs/crate/objc2-metal/0.3.2/source/Cargo.toml
+Authors as declared by manifest: (none declared in packaged manifest)
+Upstream version reference: https://github.com/madsmtm/objc2/tree/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b
+Upstream license source: https://github.com/madsmtm/objc2/blob/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md
+
+objc2-quartz-core 0.2.2 — MIT
+Crate manifest: https://docs.rs/crate/objc2-quartz-core/0.2.2/source/Cargo.toml
+Authors as declared by manifest: (none declared in packaged manifest)
+Upstream version reference: https://github.com/madsmtm/objc2/tree/e282618be4c3a3b9542957e0c8540e9588472ce8
+Upstream license source: https://github.com/madsmtm/objc2/blob/e282618be4c3a3b9542957e0c8540e9588472ce8/LICENSE.txt
+
+objc2-quartz-core 0.3.2 — Zlib OR Apache-2.0 OR MIT
+Crate manifest: https://docs.rs/crate/objc2-quartz-core/0.3.2/source/Cargo.toml
+Authors as declared by manifest: (none declared in packaged manifest)
+Upstream version reference: https://github.com/madsmtm/objc2/tree/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b
+Upstream license source: https://github.com/madsmtm/objc2/blob/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md
+
+objc2-security 0.3.2 — Zlib OR Apache-2.0 OR MIT
+Crate manifest: https://docs.rs/crate/objc2-security/0.3.2/source/Cargo.toml
+Authors as declared by manifest: (none declared in packaged manifest)
+Upstream version reference: https://github.com/madsmtm/objc2/tree/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b
+Upstream license source: https://github.com/madsmtm/objc2/blob/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md
+
+objc2-user-notifications 0.3.2 — Zlib OR Apache-2.0 OR MIT
+Crate manifest: https://docs.rs/crate/objc2-user-notifications/0.3.2/source/Cargo.toml
+Authors as declared by manifest: (none declared in packaged manifest)
+Upstream version reference: https://github.com/madsmtm/objc2/tree/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b
+Upstream license source: https://github.com/madsmtm/objc2/blob/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md
+
+objc2 0.5.3 — MIT
+Crate manifest: https://docs.rs/crate/objc2/0.5.3/source/Cargo.toml
+Authors as declared by manifest: Steven Sheldon, Mads Marquart <mads@marquart.dk>
+Upstream version reference: https://github.com/madsmtm/objc2/tree/5237cbf081d04ef75a1f6a207b4018e7c1ae7438
+Upstream license source: https://github.com/madsmtm/objc2/blob/5237cbf081d04ef75a1f6a207b4018e7c1ae7438/LICENSE.txt
+
+objc2 0.6.5 — MIT
+Crate manifest: https://docs.rs/crate/objc2/0.6.5/source/Cargo.toml
+Authors as declared by manifest: Mads Marquart <mads@marquart.dk>
+Upstream version reference: https://github.com/madsmtm/objc2/tree/d7d2fa23ceaa5e6096c923b081040e5d81b3b9df
+Upstream license source: https://github.com/madsmtm/objc2/blob/d7d2fa23ceaa5e6096c923b081040e5d81b3b9df/LICENSE.md
+
+objc_exception 0.1.2 — MIT
+Crate manifest: https://docs.rs/crate/objc_exception/0.1.2/source/Cargo.toml
+Authors as declared by manifest: Steven Sheldon
+Upstream version reference: https://github.com/SSheldon/rust-objc-exception/tree/c86ad3a52984461fc5c63980d12e8ceed847854c
+Upstream version-specific license text not found or revision unavailable; see common MIT text below.
+
+pathfinder_geometry 0.5.1 — MIT/Apache-2.0
+Crate manifest: https://docs.rs/crate/pathfinder_geometry/0.5.1/source/Cargo.toml
+Authors as declared by manifest: Patrick Walton <pcwalton@mimiga.net>
+Upstream version reference: https://github.com/servo/pathfinder/tree/a5e98fac00f433fe2ff4b2135383d82491b8bfc5
+Upstream version-specific license text not found or revision unavailable; see common MIT text below.
+Copyright lines found in packaged source files (not a complete attribution inventory):
+// Copyright © 2019 The Pathfinder Project Developers.
+// Copyright © 2020 The Pathfinder Project Developers.
+
+pathfinder_simd 0.5.6 — MIT OR Apache-2.0
+Crate manifest: https://docs.rs/crate/pathfinder_simd/0.5.6/source/Cargo.toml
+Authors as declared by manifest: Patrick Walton <pcwalton@mimiga.net>
+Upstream version reference: https://github.com/servo/pathfinder/tree/6c3c0466f451c5bd2007087728cd168798cd64e8
+Upstream license source: https://github.com/servo/pathfinder/blob/6c3c0466f451c5bd2007087728cd168798cd64e8/LICENSE-MIT
+Copyright lines found in packaged source files (not a complete attribution inventory):
+// Copyright © 2019 The Pathfinder Project Developers.
+
+========================================================================
+Upstream license text as retrieved: https://github.com/AccessKit/accesskit/blob/c88605b96d04431f9c3c792464a0f2f253480e94/LICENSE-MIT
+Permission is hereby granted, free of charge, to any
+person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the
+Software without restriction, including without
+limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software
+is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice
+shall be included in all copies or substantial portions
+of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+========================================================================
+Upstream license text as retrieved: https://github.com/madsmtm/objc2/blob/4fc083f1c6d6784577e38b0ee8dbd344481e2fd2/LICENSE.txt
+MIT License
+
+Copyright (c) Steven Sheldon
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+========================================================================
+Upstream license text as retrieved: https://github.com/madsmtm/objc2/blob/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md
+# License
+
+The licensing of these crates is a bit complicated:
+- The crates `objc2`, `block2`, `objc2-foundation` and `objc2-encode` are
+  [currently][#23] licensed under [the MIT license][MIT].
+- All other crates are trio-licensed under the [Zlib], [Apache-2.0] or [MIT]
+  license, at your option.
+
+Furthermore, the crates are (usually automatically) derived from Apple SDKs,
+and that may have implications for licensing, see below for details.
+
+[#23]: https://github.com/madsmtm/objc2/issues/23
+[MIT]: https://opensource.org/license/MIT
+[Zlib]: https://zlib.net/zlib_license.html
+[Apache-2.0]: https://www.apache.org/licenses/LICENSE-2.0
+
+
+## Apple SDKs
+
+These crates are derived from Apple SDKs shipped with Xcode. You can obtain a
+copy of the Xcode license at:
+
+https://www.apple.com/legal/sla/docs/xcode.pdf
+
+Or by typing `xcodebuild -license` in your terminal.
+
+From reading the license, it is unclear whether distributing derived works
+such as these crates are allowed?
+
+But in any case, to practically use these crates, you will have to link, and
+that only works when you have the correct Xcode SDK available to provide the
+required `.tbd` files, which is why we choose to still use the normal SPDX
+identifiers in the crates (Xcode is required to use the crates, and when using
+Xcode you have already agreed to the Xcode license).
+
+========================================================================
+Upstream license text as retrieved: https://github.com/madsmtm/objc2/blob/8852b424193ca41602281b3d7540d7c8ed51e49a/LICENSE.md
+# License
+
+The licensing of these crates is a bit complicated:
+- The crates `objc2`, `block2`, `objc2-foundation` and `objc2-encode` are
+  [currently][#23] licensed under [the MIT license][MIT].
+- All other crates are trio-licensed under the [Zlib], [Apache-2.0] or [MIT]
+  license, at your option.
+
+Furthermore, the crates are (usually automatically) derived from Apple SDKs,
+and that may have implications for licensing, see below for details.
+
+[#23]: https://github.com/madsmtm/objc2/issues/23
+[MIT]: https://opensource.org/license/MIT
+[Zlib]: https://zlib.net/zlib_license.html
+[Apache-2.0]: https://www.apache.org/licenses/LICENSE-2.0
+
+
+## Apple SDKs
+
+These crates are derived from Apple SDKs shipped with Xcode. You can obtain a
+copy of the Xcode license at:
+
+https://www.apple.com/legal/sla/docs/xcode.pdf
+
+Or by typing `xcodebuild -license` in your terminal.
+
+From reading the license, it is unclear whether distributing derived works
+such as these crates are allowed?
+
+But in any case, to practically use these crates, you will have to link, and
+that only works when you have the correct Xcode SDK available to provide the
+required `.tbd` files, which is why we choose to still use the normal SPDX
+identifiers in the crates (Xcode is required to use the crates, and when using
+Xcode you have already agreed to the Xcode license).
+
+========================================================================
+Upstream license text as retrieved: https://github.com/madsmtm/objc2/blob/e282618be4c3a3b9542957e0c8540e9588472ce8/LICENSE.txt
+MIT License
+
+Copyright (c) Steven Sheldon
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+========================================================================
+Upstream license text as retrieved: https://github.com/madsmtm/objc2/blob/7b1abfd750a2cacaea71d6a56ecfb83cb7de560b/LICENSE.md
+# License
+
+The licensing of these crates is a bit complicated:
+- The crates `objc2`, `block2`, `objc2-foundation` and `objc2-encode` are
+  [currently][#23] licensed under [the MIT license][MIT].
+- All other crates are trio-licensed under the [Zlib], [Apache-2.0] or [MIT]
+  license, at your option.
+
+Furthermore, the crates are (usually automatically) derived from Apple SDKs,
+and that may have implications for licensing, see below for details.
+
+[#23]: https://github.com/madsmtm/objc2/issues/23
+[MIT]: https://opensource.org/license/MIT
+[Zlib]: https://zlib.net/zlib_license.html
+[Apache-2.0]: https://www.apache.org/licenses/LICENSE-2.0
+
+
+## Apple SDKs
+
+These crates are derived from Apple SDKs shipped with Xcode. You can obtain a
+copy of the Xcode license at:
+
+https://www.apple.com/legal/sla/docs/xcode.pdf
+
+Or by typing `xcodebuild -license` in your terminal.
+
+From reading the license, it is unclear whether distributing derived works
+such as these crates are allowed?
+
+But in any case, to practically use these crates, you will have to link, and
+that only works when you have the correct Xcode SDK available to provide the
+required `.tbd` files, which is why we choose to still use the normal SPDX
+identifiers in the crates (Xcode is required to use the crates, and when using
+Xcode you have already agreed to the Xcode license).
+
+========================================================================
+Upstream license text as retrieved: https://github.com/madsmtm/objc2/blob/8d214f5477365ffcbcbb7de058c86ed9a518efb7/LICENSE.md
+# License
+
+The licensing of these crates is a bit complicated:
+- The crates `objc2`, `block2`, `objc2-foundation` and `objc2-encode` are
+  [currently][#23] licensed under [the MIT license][MIT].
+- All other crates are trio-licensed under the [Zlib], [Apache-2.0] or [MIT]
+  license, at your option.
+
+Furthermore, the crates are (usually automatically) derived from Apple SDKs,
+and that may have implications for licensing, see below for details.
+
+[#23]: https://github.com/madsmtm/objc2/issues/23
+[MIT]: https://opensource.org/license/MIT
+[Zlib]: https://zlib.net/zlib_license.html
+[Apache-2.0]: https://www.apache.org/licenses/LICENSE-2.0
+
+
+## Apple SDKs
+
+These crates are derived from Apple SDKs shipped with Xcode. You can obtain a
+copy of the Xcode license at:
+
+https://www.apple.com/legal/sla/docs/xcode.pdf
+
+Or by typing `xcodebuild -license` in your terminal.
+
+From reading the license, it is unclear whether distributing derived works
+such as these crates are allowed?
+
+But in any case, to practically use these crates, you will have to link, and
+that only works when you have the correct Xcode SDK available to provide the
+required `.tbd` files, which is why we choose to still use the normal SPDX
+identifiers in the crates (Xcode is required to use the crates, and when using
+Xcode you have already agreed to the Xcode license).
+
+========================================================================
+Upstream license text as retrieved: https://github.com/madsmtm/objc2/blob/5237cbf081d04ef75a1f6a207b4018e7c1ae7438/LICENSE.txt
+MIT License
+
+Copyright (c) Steven Sheldon
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+========================================================================
+Upstream license text as retrieved: https://github.com/madsmtm/objc2/blob/d7d2fa23ceaa5e6096c923b081040e5d81b3b9df/LICENSE.md
+# License
+
+The licensing of these crates is a bit complicated:
+- The crates `objc2`, `block2`, `objc2-foundation` and `objc2-encode` are
+  [currently][#23] licensed under [the MIT license][MIT].
+- All other crates are trio-licensed under the [Zlib], [Apache-2.0] or [MIT]
+  license, at your option.
+
+Furthermore, the crates are (usually automatically) derived from Apple SDKs,
+and that may have implications for licensing, see below for details.
+
+[#23]: https://github.com/madsmtm/objc2/issues/23
+[MIT]: https://opensource.org/license/MIT
+[Zlib]: https://zlib.net/zlib_license.html
+[Apache-2.0]: https://www.apache.org/licenses/LICENSE-2.0
+
+
+## Apple SDKs
+
+These crates are derived from Apple SDKs shipped with Xcode. You can obtain a
+copy of the Xcode license at:
+
+https://www.apple.com/legal/sla/docs/xcode.pdf
+
+Or by typing `xcodebuild -license` in your terminal.
+
+From reading the license, it is unclear whether distributing derived works
+such as these crates are allowed?
+
+But in any case, to practically use these crates, you will have to link, and
+that only works when you have the correct Xcode SDK available to provide the
+required `.tbd` files, which is why we choose to still use the normal SPDX
+identifiers in the crates (Xcode is required to use the crates, and when using
+Xcode you have already agreed to the Xcode license).
+
+========================================================================
+Upstream license text as retrieved: https://github.com/servo/pathfinder/blob/6c3c0466f451c5bd2007087728cd168798cd64e8/LICENSE-MIT
+Copyright (c) 2010 The Rust Project Developers
+
+Permission is hereby granted, free of charge, to any
+person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the
+Software without restriction, including without
+limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software
+is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice
+shall be included in all copies or substantial portions
+of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+========================================================================
+Common MIT license text (canonical SPDX template; placeholders are not asserted as copyright facts):
+https://github.com/spdx/license-list-data/blob/v3.27.0/text/MIT.txt
+MIT License
+
+Copyright (c) <year> <copyright holders>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the
+following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+USE OR OTHER DEALINGS IN THE SOFTWARE.

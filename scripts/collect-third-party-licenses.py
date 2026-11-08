@@ -18,7 +18,11 @@ import sys
 
 NAME = re.compile(r"^(?:licen[cs]e|copying|notice|copyright)(?:$|[._-])", re.I)
 ROOT = Path(__file__).resolve().parent.parent
-SUPPLEMENT = ROOT / "crates/gitviews-app/assets/licenses/THIRD-PARTY-NOTICES.txt"
+SUPPLEMENTS = {
+    "SUPPLEMENTAL-WINDOWS-NOTICES.txt": ROOT / "crates/gitviews-app/assets/licenses/THIRD-PARTY-NOTICES.txt",
+    "UNIX-THIRD-PARTY-NOTICES.txt": ROOT / "crates/gitviews-app/assets/licenses/UNIX-THIRD-PARTY-NOTICES.txt",
+    "MACOS-THIRD-PARTY-NOTICES.txt": ROOT / "crates/gitviews-app/assets/licenses/MACOS-THIRD-PARTY-NOTICES.txt",
+}
 
 
 def collect(target: str, output: Path) -> int:
@@ -40,8 +44,12 @@ def collect(target: str, output: Path) -> int:
         pending.extend(nodes[package_id]["dependencies"])
 
     output.mkdir(parents=True, exist_ok=True)
-    shutil.copyfile(SUPPLEMENT, output / "SUPPLEMENTAL-WINDOWS-NOTICES.txt")
-    supplemental_text = SUPPLEMENT.read_text(encoding="utf-8")
+    supplemental_texts = []
+    for name, source in SUPPLEMENTS.items():
+        if source.is_file():
+            shutil.copyfile(source, output / name)
+            supplemental_texts.append(source.read_text(encoding="utf-8"))
+    supplemental_text = "\n".join(supplemental_texts)
     entries = []
     for package in sorted((packages[item] for item in reachable), key=lambda item: item["id"]):
         if package["source"] is None:
@@ -97,7 +105,7 @@ def collect(target: str, output: Path) -> int:
     inventory = {
         "target": target,
         "scope": "Reachable registry/git Cargo packages in target-filtered metadata, including build and dev dependencies; vendored non-Cargo code may require further review.",
-        "supplement": "Windows-oriented supplemental notice; a matching catalog entry does not prove that full license terms are present.",
+        "supplement": "Supplemental notices include their sources; a matching catalog entry does not itself prove complete license terms.",
         "packages_without_license_file": [entry["name"] + " " + entry["version"] for entry in missing],
         "packages": entries,
     }
